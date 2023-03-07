@@ -1,0 +1,21 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.insertSpaces": true,
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "files.exclude": {
+    ".gitignore": true,
+    ".next": true,
+    ".firebase": true,
+    ".firebaserc": true,
+    "out": true,
+    "node_modules": true,
+    "package-lock.json": true,
+    "next-env.d.ts": true
+  }
+}

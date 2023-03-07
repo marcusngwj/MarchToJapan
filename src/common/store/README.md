@@ -1,0 +1,1 @@
+https://medium.com/blutv/a-simple-next-js-application-using-redux-toolkit-and-typescript-with-a-proposal-folder-structure-76a1169af15d
