@@ -35,20 +35,20 @@ export default function Index() {
       //   history.replaceState(null, "", urlWithoutQuery);
       // }
 
-      setIsLoading(false)
+      setIsLoading(false);
     }
   }, [isReady]);
 
   return (
     <>
       <Box sx={{ display: { xs: "block", md: "none" } }}>
-        {isReady && !isLoading &&(
-          <VerticalView itinerary={itinerary} day={day} time={time ?? "-"} />
+        {isReady && !isLoading && (
+          <VerticalView itinerary={itinerary} day={day} time={time} />
         )}
       </Box>
       <Box sx={{ display: { xs: "none", md: "block" } }}>
         {isReady && !isLoading && (
-          <HorizontalView itinerary={itinerary} day={day} time={time ?? "-"} />
+          <HorizontalView itinerary={itinerary} day={day} time={time} />
         )}
       </Box>
     </>

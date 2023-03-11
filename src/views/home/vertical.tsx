@@ -107,7 +107,7 @@ function Itinerary() {
 function Preparation() {
   return (
     <Button
-      to={{ pathname: "/itinerary" }}
+      to={{ pathname: "/preparation" }}
       sx={{
         backgroundImage: `url(${images.home.preparation})`,
         height: "30%",
@@ -122,7 +122,7 @@ function Preparation() {
 function Frenzy() {
   return (
     <Button
-      to={{ pathname: "/itinerary" }}
+      to={{ pathname: "/frenzy" }}
       sx={{
         backgroundImage: `url(${images.home.frenzy})`,
         height: "30%",
@@ -138,7 +138,7 @@ function Frenzy() {
 function Expenditure() {
   return (
     <Button
-      to={{ pathname: "/itinerary" }}
+      to={{ pathname: "/expenditure" }}
       sx={{
         backgroundImage: `url(${images.home.expenditure})`,
         width: "100%",

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
-import type { Timeline } from "@/common/types/itinerary";
+import type { ItineraryItem } from "@/common/types/itinerary";
 
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
@@ -36,7 +36,7 @@ function TimelineItem({ item }: TimelineItemProp) {
               mr: 1,
             }}
           >
-            <span>{item.title}</span>
+            <span>{item.name}</span>
             <NavigateNextIcon />
           </Box>
         </Box>
@@ -83,11 +83,11 @@ function TimeIndicator({ time }: TimeIndicatorProp) {
 }
 
 export type TimelinePanelProp = {
-  timeline: Timeline[];
+  timeline: ItineraryItem[];
 };
 
 type TimelineItemProp = {
-  item: Timeline;
+  item: ItineraryItem;
 };
 
 type TimeIndicatorProp = {
