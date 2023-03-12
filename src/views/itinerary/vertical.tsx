@@ -1,16 +1,14 @@
 import { useState, SyntheticEvent } from "react";
+import { useRouter } from "next/router";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import TabContext from "@mui/lab/TabContext";
 import TabPanel from "@mui/lab/TabPanel";
-import NavigationFooter from "@/common/components/navigationFooter";
 import Scroll, { ScrollItemProp } from "@/common/components/scroll";
 import TimelinePanel from "./components/timeline";
 import type { ViewProps, Itinerary } from "@/common/types/itinerary";
-
 import { useDispatch } from "@/common/store";
 import { setDay } from "@/common/store/slices/itinerary";
-import { useRouter } from "next/router";
 
 export default function View({ itinerary, day, time }: ViewProps) {
   const [value, setValue] = useState(day);
@@ -46,7 +44,6 @@ export default function View({ itinerary, day, time }: ViewProps) {
           })}
         </Box>
       </TabContext>
-      {/* <NavigationFooter /> */}
     </Box>
   );
 }

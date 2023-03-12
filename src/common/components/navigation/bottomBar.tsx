@@ -1,4 +1,3 @@
-import { Dispatch, SetStateAction } from "react";
 import Link from "next/link";
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
@@ -10,11 +9,14 @@ import ListAltIcon from "@mui/icons-material/ListAlt";
 import CollectionsIcon from "@mui/icons-material/Collections";
 import Concealer from "./concealer";
 import { route } from "@/common/constants/route";
+import { useDispatch } from "@/common/store";
+import { setNavigationIndex } from "@/common/store/slices/navigation";
 
 export default function BottomBar({
   selectedTab,
-  setSelectedTab,
 }: BottomBarProp) {
+  const dispatch = useDispatch();
+
   return (
     <Concealer direction="up">
       <Paper
@@ -25,7 +27,7 @@ export default function BottomBar({
           showLabels
           value={selectedTab}
           onChange={(event, newValue) => {
-            setSelectedTab(newValue);
+            dispatch(setNavigationIndex(newValue));
           }}
         >
           <BottomNavigationAction
@@ -66,5 +68,4 @@ export default function BottomBar({
 
 type BottomBarProp = {
   selectedTab: number;
-  setSelectedTab: Dispatch<SetStateAction<number>>;
 };

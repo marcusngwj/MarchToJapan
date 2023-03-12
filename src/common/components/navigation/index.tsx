@@ -1,44 +1,56 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import Orientation from "@/common/components/orientation";
 import TopBar from "./topBar";
 import BottomBar from "./bottomBar";
-import Orientation from "../orientation";
 import { route } from "@/common/constants/route";
+import { useDispatch, useSelector } from "@/common/store";
+import {
+  setNavigationIndex,
+  getNavigationState,
+} from "@/common/store/slices/navigation";
 
 export default function NavigationBar() {
   const router = useRouter();
   const { isReady } = router;
   const [isLoading, setIsLoading] = useState(true);
-  const [selectedTab, setSelectedTab] = useState<number>(0);
+
+  const dispatch = useDispatch();
+  const { currentIndex } = useSelector(getNavigationState);
 
   useEffect(() => {
-    console.log(router.pathname)
+    console.log(router.pathname);
     if (isReady) {
       switch (router.pathname) {
         case route.home.path:
-          setSelectedTab(route.home.index);
+          dispatch(setNavigationIndex(route.home.index));
           break;
         case route.itinerary.path:
-          setSelectedTab(route.itinerary.index);
+          dispatch(setNavigationIndex(route.itinerary.index));
           break;
         case route.expenditure.path:
-          setSelectedTab(route.expenditure.index);
+          dispatch(setNavigationIndex(route.expenditure.index));
           break;
         case route.preparation.path:
-          setSelectedTab(route.preparation.index);
+          dispatch(setNavigationIndex(route.preparation.index));
           break;
         case route.frenzy.path:
-          setSelectedTab(route.frenzy.index);
+          dispatch(setNavigationIndex(route.frenzy.index));
           break;
         default:
-          setSelectedTab(route.home.index);
+          dispatch(setNavigationIndex(route.home.index));
           break;
       }
       setIsLoading(false);
     }
   }, [isReady]);
 
-  if (router.pathname === route.home.path) {
+  if (
+    router.pathname !== route.itinerary.path &&
+    router.pathname !== route.expenditure.path &&
+    router.pathname !== route.preparation.path &&
+    router.pathname !== route.frenzy.path
+  ) {
     return <></>;
   }
 
@@ -46,12 +58,7 @@ export default function NavigationBar() {
     <>
       {isReady && !isLoading && (
         <Orientation
-          verticalView={
-            <BottomBar
-              selectedTab={selectedTab}
-              setSelectedTab={setSelectedTab}
-            />
-          }
+          verticalView={<BottomBar selectedTab={currentIndex} />}
           horizontalView={<TopBar />}
         />
       )}

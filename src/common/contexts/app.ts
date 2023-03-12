@@ -1,5 +1,6 @@
 import { createContext } from "react";
 import { ContextProps, AppState } from "@/common/types/appContext";
+import { route } from "@/common/constants/route"
 
 const sessionStorageKey = "appState";
 
@@ -7,10 +8,12 @@ export default createContext<ContextProps>({
   state: {
     day: "0",
     time: "-",
+    navigationIndex: route.home.index,
   },
   action: {
     setDay: () => {},
     setTime: () => {},
+    setNavigationIndex: () => {}
   },
 });
 

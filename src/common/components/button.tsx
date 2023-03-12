@@ -1,4 +1,4 @@
-import { forwardRef, ReactNode } from "react";
+import { forwardRef, MouseEventHandler, ReactNode } from "react";
 import NextLink, { LinkProps as NextLinkProps } from "next/link";
 import { styled, SxProps, Theme } from "@mui/material/styles";
 import MuiButton from "@mui/material/Button";
@@ -8,9 +8,9 @@ import MuiButton from "@mui/material/Button";
  * - https://mui.com/material-ui/guides/routing/
  * - https://github.com/mui/material-ui/blob/HEAD/examples/material-next-ts/src/Link.tsx
  ***************************************************************************************/
-export default function Button({ to, children, sx }: ButtonProp) {
+export default function Button({ to, children, sx, onclick }: ButtonProp) {
   return (
-    <MuiButton component={NextLinkComposed} to={to} sx={sx}>
+    <MuiButton component={NextLinkComposed} to={to} sx={sx} onClick={onclick}>
       {children}
     </MuiButton>
   );
@@ -65,4 +65,5 @@ type ButtonProp = {
   to: NextLinkProps["href"];
   children?: ReactNode;
   sx?: SxProps<Theme> | undefined
+  onclick?: MouseEventHandler<HTMLAnchorElement>
 };

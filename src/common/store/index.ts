@@ -7,19 +7,21 @@ import { persistReducer, persistStore } from 'redux-persist';
 import storage from 'redux-persist/lib/storage/session';
 import { configureStore } from "@reduxjs/toolkit";
 import itineraryReducer from "./slices/itinerary";
+import navigationReducer from "./slices/navigation"
 
 /**
  * Includes all the slices as reducers.
  */
 const rootReducer = combineReducers({
   itinerary: itineraryReducer,
+  navigation: navigationReducer,
 });
 
 
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['itinerary'],
+  whitelist: ['itinerary', 'navigation'],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

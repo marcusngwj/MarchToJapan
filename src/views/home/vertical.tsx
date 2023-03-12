@@ -2,6 +2,9 @@ import Box from "@mui/material/Box";
 import Button from "@/common/components/button";
 import Grid from "@mui/material/Unstable_Grid2";
 import { images } from "@/common/constants/images";
+import { useDispatch } from "@/common/store";
+import { setNavigationIndex } from "@/common/store/slices/navigation";
+import { route } from "@/common/constants/route";
 
 export default function View() {
   return (
@@ -88,9 +91,11 @@ function Navigation() {
 }
 
 function Itinerary() {
+  const dispatch = useDispatch();
   return (
     <Button
-      to={{ pathname: "/itinerary" }}
+      onclick={() => dispatch(setNavigationIndex(route.itinerary.index))}
+      to={{ pathname: route.itinerary.path }}
       sx={{
         backgroundImage: `url(${images.home.itinerary})`,
         width: "100%",
@@ -105,9 +110,11 @@ function Itinerary() {
 
 // Insurance, packing list etc
 function Preparation() {
+  const dispatch = useDispatch();
   return (
     <Button
-      to={{ pathname: "/preparation" }}
+      onclick={() => dispatch(setNavigationIndex(route.preparation.index))}
+      to={{ pathname: route.preparation.path }}
       sx={{
         backgroundImage: `url(${images.home.preparation})`,
         height: "30%",
@@ -120,9 +127,11 @@ function Preparation() {
 }
 
 function Frenzy() {
+  const dispatch = useDispatch();
   return (
     <Button
-      to={{ pathname: "/frenzy" }}
+      onclick={() => dispatch(setNavigationIndex(route.frenzy.index))}
+      to={{ pathname: route.frenzy.path }}
       sx={{
         backgroundImage: `url(${images.home.frenzy})`,
         height: "30%",
@@ -136,9 +145,11 @@ function Frenzy() {
 }
 
 function Expenditure() {
+  const dispatch = useDispatch();
   return (
     <Button
-      to={{ pathname: "/expenditure" }}
+      onclick={() => dispatch(setNavigationIndex(route.expenditure.index))}
+      to={{ pathname: route.expenditure.path }}
       sx={{
         backgroundImage: `url(${images.home.expenditure})`,
         width: "100%",
