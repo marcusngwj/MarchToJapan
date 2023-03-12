@@ -58,8 +58,8 @@ export default function NavigationBar() {
     <>
       {isReady && !isLoading && (
         <Orientation
-          verticalView={<BottomBar selectedTab={currentIndex} />}
-          horizontalView={<TopBar />}
+          v={<BottomBar selectedTab={currentIndex} />}
+          h={<TopBar />}
         />
       )}
     </>

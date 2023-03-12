@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Unstable_Grid2';
-import LeftPanel from "./components/leftPanel";
-import RightPanel from './components/rightPanel';
+import LeftPanel from "./leftPanel";
+import RightPanel from './rightPanel';
 
 export default function View() {
   return (

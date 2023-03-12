@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import TabContext from "@mui/lab/TabContext";
 import TabPanel from "@mui/lab/TabPanel";
 import Scroll, { ScrollItemProp } from "@/common/components/scroll";
-import TimelinePanel from "./components/timeline";
+import TimelinePanel from "../components/timeline";
 import type { ViewProps, Itinerary } from "@/common/types/itinerary";
 
 export default function View({ itinerary, day, time }: ViewProps) {

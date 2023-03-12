@@ -6,13 +6,13 @@ export default function Layout({ children }: LayoutProp) {
   return (
     <>
       <Orientation
-        verticalView={
+        v={
           <>
             {children}
             <NavigationBar />
           </>
         }
-        horizontalView={
+        h={
           <>
             <NavigationBar />
             {children}

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import Box from "@mui/material/Box";
 import VerticalView from "@/views/itinerary/vertical";
 import HorizontalView from "@/views/itinerary/horizontal";
+import Orientation from "@/common/components/orientation";
 import { itinerary } from "@/common/constants/itinerary";
 import { getSingleFromUrlQuery } from "@/common/functions/urlQuery";
 import { getDay } from "@/common/functions/itinerary";
@@ -27,8 +27,8 @@ export default function Index() {
       //   history.replaceState(null, "", urlWithoutQuery);
       // }
 
-      console.log(day)
-      console.log(validatedDay)
+      console.log(day);
+      console.log(validatedDay);
       setDay(validatedDay);
       setIsLoading(false);
     }
@@ -36,16 +36,16 @@ export default function Index() {
 
   return (
     <>
-      <Box sx={{ display: { xs: "block", md: "none" } }}>
-        {isReady && !isLoading && (
-          <VerticalView itinerary={itinerary} day={day} time={time} />
-        )}
-      </Box>
-      <Box sx={{ display: { xs: "none", md: "block" } }}>
-        {isReady && !isLoading && (
-          <HorizontalView itinerary={itinerary} day={day} time={time} />
-        )}
-      </Box>
+      {isReady && !isLoading && (
+        <Orientation
+          v={
+            <VerticalView itinerary={itinerary} day={day} time={time} />
+          }
+          h={
+            <HorizontalView itinerary={itinerary} day={day} time={time} />
+          }
+        />
+      )}
     </>
   );
 }

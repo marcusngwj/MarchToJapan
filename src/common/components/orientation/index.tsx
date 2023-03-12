@@ -2,8 +2,8 @@ import { ReactElement } from "react";
 import Box from "@mui/material/Box";
 
 export default function Orientation({
-  verticalView,
-  horizontalView,
+  v: verticalView,
+  h: horizontalView,
 }: OrientationProp) {
   return (
     <>
@@ -14,6 +14,6 @@ export default function Orientation({
 }
 
 type OrientationProp = {
-  verticalView: ReactElement;
-  horizontalView: ReactElement;
+  v: ReactElement;
+  h: ReactElement;
 };
