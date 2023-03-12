@@ -26,9 +26,7 @@ export default function Index() {
       //   const urlWithoutQuery = window.location.pathname;
       //   history.replaceState(null, "", urlWithoutQuery);
       // }
-
-      console.log(day);
-      console.log(validatedDay);
+      
       setDay(validatedDay);
       setIsLoading(false);
     }

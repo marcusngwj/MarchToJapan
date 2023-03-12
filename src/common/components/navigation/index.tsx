@@ -19,7 +19,6 @@ export default function NavigationBar() {
   const { currentIndex } = useSelector(getNavigationState);
 
   useEffect(() => {
-    console.log(router.pathname);
     if (isReady) {
       switch (router.pathname) {
         case route.home.path:
