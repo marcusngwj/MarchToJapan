@@ -1,7 +1,7 @@
 export type ViewProps = {
   itinerary: Itinerary;
   day: string;
-  time: string;
+  time?: string;
 };
 
 export type Itinerary = {

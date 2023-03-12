@@ -6,10 +6,10 @@ import type { Itinerary } from "@/common/types/itinerary";
 export default function Schedule({itinerary}: ScheduleProp) {
   return (
     <Box sx={{ pb: "60px" }}>
-      {Object.entries(itinerary).map(([key, value]) => {
+      {Object.entries(itinerary).map(([dayId, day]) => {
         return (
-          <TabPanel key={key} value={key}>
-            <Timeline timeline={value.timeline} />
+          <TabPanel key={dayId} value={dayId}>
+            <Timeline timeline={day.timeline} day={dayId}/>
           </TabPanel>
         );
       })}
