@@ -46,7 +46,7 @@ export default function View({ itinerary, day, time }: ViewProps) {
           })}
         </Box>
       </TabContext>
-      <NavigationFooter />
+      {/* <NavigationFooter /> */}
     </Box>
   );
 }
