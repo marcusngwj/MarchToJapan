@@ -3,9 +3,11 @@ import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import Paper from '@mui/material/Paper';
 
 import * as React from "react";
-import RestoreIcon from "@mui/icons-material/Restore";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
+import HomeIcon from '@mui/icons-material/Home';
+import TimelineIcon from '@mui/icons-material/Timeline';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import ListAltIcon from '@mui/icons-material/ListAlt';
+import CollectionsIcon from '@mui/icons-material/Collections';
 
 export default function NavigationFooter() {
   const [value, setValue] = React.useState(0);
@@ -18,11 +20,11 @@ export default function NavigationFooter() {
             setValue(newValue);
           }}
         >
-          <BottomNavigationAction label="Home" icon={<RestoreIcon />} />
-          <BottomNavigationAction label="Itinerary" icon={<FavoriteIcon />} />
-          <BottomNavigationAction label="Expenditure" icon={<LocationOnIcon />} />
-          <BottomNavigationAction label="Preparation" icon={<LocationOnIcon />} />
-          <BottomNavigationAction label="Frenzy" icon={<LocationOnIcon />} />
+          <BottomNavigationAction label="Home" icon={<HomeIcon />} />
+          <BottomNavigationAction label="Itinerary" icon={<TimelineIcon />} />
+          <BottomNavigationAction label="Expenditure" icon={<AttachMoneyIcon />} />
+          <BottomNavigationAction label="Preparation" icon={<ListAltIcon />} />
+          <BottomNavigationAction label="Frenzy" icon={<CollectionsIcon />} />
         </BottomNavigation>
       </Paper>
   );
