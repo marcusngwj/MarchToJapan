@@ -6,12 +6,6 @@ import HorizontalView from "@/views/itinerary/horizontal";
 import { itinerary } from "@/common/constants/itinerary";
 import { getSingleFromUrlQuery } from "@/common/functions/urlQuery";
 import { getDay } from "@/common/functions/itinerary";
-import { useDispatch, useSelector } from "@/common/store";
-import {
-  getItineraryState,
-  setDay,
-  setTime,
-} from "@/common/store/slices/itinerary";
 
 export default function Index() {
   const router = useRouter();
@@ -19,25 +13,26 @@ export default function Index() {
   const { day: queryDay, time: queryTime } = router.query;
 
   const [isLoading, setIsLoading] = useState(true);
-  const { day, time } = useSelector(getItineraryState);
-
-  const dispatch = useDispatch();
+  const [day, setDay] = useState(getDay(getSingleFromUrlQuery(queryDay)));
+  const [time, setTime] = useState("-");
 
   useEffect(() => {
     if (isReady) {
       console.log("Router IS READY");
 
       let validatedDay = getDay(getSingleFromUrlQuery(queryDay));
-      dispatch(setDay(validatedDay));
 
       // if (validatedDay !== queryDay) {
       //   const urlWithoutQuery = window.location.pathname;
       //   history.replaceState(null, "", urlWithoutQuery);
       // }
 
+      console.log(day)
+      console.log(validatedDay)
+      setDay(validatedDay);
       setIsLoading(false);
     }
-  }, [isReady]);
+  }, [isReady, queryDay, day]);
 
   return (
     <>

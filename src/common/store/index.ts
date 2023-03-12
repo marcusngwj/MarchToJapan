@@ -21,7 +21,7 @@ const rootReducer = combineReducers({
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['itinerary', 'navigation'],
+  whitelist: ['itinerary'],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

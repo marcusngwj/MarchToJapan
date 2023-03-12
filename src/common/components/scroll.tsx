@@ -1,24 +1,26 @@
-import { SyntheticEvent } from "react";
+import Link from "next/link";
 import Box from "@mui/material/Box";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
+import { route } from "@/common/constants/route"
 
-export default function Scroll({ data, value, onChange }: ScrollProp) {
+export default function Scroll({ data, value }: ScrollProp) {
   return (
     <Tabs
       variant="scrollable"
       allowScrollButtonsMobile
       value={value}
-      onChange={onChange}
     >
       {data.map((item, index) => (
         <Tab
           aria-label={item.title}
           key={index}
-          value={index.toString()}
           label={
             <ScrollItem title={item.title} description={item.description} />
           }
+          component={Link}
+          href={`${route.itinerary.path}?day=${index}`}
+          value={index.toString()}
         />
       ))}
     </Tabs>
@@ -37,7 +39,6 @@ function ScrollItem({ title, description }: ScrollItemProp) {
 type ScrollProp = {
   data: ScrollItemProp[];
   value: string;
-  onChange: (event: SyntheticEvent, newValue: any) => void;
 };
 
 export type ScrollItemProp = {

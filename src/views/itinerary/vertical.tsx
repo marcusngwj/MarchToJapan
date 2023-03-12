@@ -1,5 +1,3 @@
-import { useState, SyntheticEvent } from "react";
-import { useRouter } from "next/router";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import TabContext from "@mui/lab/TabContext";
@@ -7,32 +5,15 @@ import TabPanel from "@mui/lab/TabPanel";
 import Scroll, { ScrollItemProp } from "@/common/components/scroll";
 import TimelinePanel from "./components/timeline";
 import type { ViewProps, Itinerary } from "@/common/types/itinerary";
-import { useDispatch } from "@/common/store";
-import { setDay } from "@/common/store/slices/itinerary";
 
 export default function View({ itinerary, day, time }: ViewProps) {
-  const [value, setValue] = useState(day);
-  const router = useRouter();
-
-  const dispatch = useDispatch();
-
-  const handleTabChange = (event: SyntheticEvent, newValue: string) => {
-    setValue(newValue);
-    dispatch(setDay(newValue));
-    router.push({
-      pathname: router.pathname,
-      query: { day: newValue },
-    });
-  };
-
   return (
     <Box>
       <CssBaseline />
-      <TabContext value={value}>
+      <TabContext value={day}>
         <Scroll
           data={getDataForScroll(itinerary)}
-          value={value}
-          onChange={handleTabChange}
+          value={day}
         />
         <Box sx={{ pb: "60px" }}>
           {Object.entries(itinerary).map(([key, value]) => {
