@@ -5,6 +5,7 @@ import Header from "./header";
 import Guide from "./guide";
 import Narrative from "./narrative";
 import { ItineraryItemActivity } from "@/common/types/itinerary";
+import BackButton from "./backButton";
 
 export default function Index({
   name,
@@ -17,10 +18,11 @@ export default function Index({
   images,
 }: ActivityProp) {
   const padding = 3;
-  
+
   return (
     <Box>
       <Banner thumbnail={thumbnail} />
+      <BackButton />
       <Box
         sx={{
           position: "relative",
@@ -31,9 +33,7 @@ export default function Index({
           p: padding,
         }}
       >
-        {location && (
-          <Guide />
-        )}
+        {location && <Guide />}
         <Stack spacing={3}>
           <Header title={name} duration={duration} rating={rating} url={url} />
           {narratives?.length > 0 &&
