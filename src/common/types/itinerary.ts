@@ -22,12 +22,17 @@ export type ItineraryItem = {
 };
 
 export type ItineraryItemActivity = {
-  location: string;
+  location: ItineraryItemActivityLocation;
   duration: string;
   rating?: number;
   url?: string;
   narratives: ItineraryItemActivityNarrative[];
   images?: string;
+};
+
+type ItineraryItemActivityLocation = {
+  address: string;
+  map: string;
 };
 
 export type ItineraryItemActivityNarrative = {

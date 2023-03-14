@@ -1,11 +1,13 @@
+import { MouseEventHandler, useState } from "react";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Banner from "./banner";
 import Header from "./header";
-import Guide from "./guide";
+import GuideButton from "./guideButton";
 import Narrative from "./narrative";
-import { ItineraryItemActivity } from "@/common/types/itinerary";
 import BackButton from "./backButton";
+import Guide from "./guide";
+import { ItineraryItemActivity } from "@/common/types/itinerary";
 
 export default function Index({
   name,
@@ -18,6 +20,10 @@ export default function Index({
   images,
 }: ActivityProp) {
   const padding = 3;
+
+  const [isGuideOpen, setOpenGuide] = useState(false);
+  const handleOpenGuide = () => setOpenGuide(true);
+  const handleCloseGuide = () => setOpenGuide(false);
 
   return (
     <Box>
@@ -33,7 +39,7 @@ export default function Index({
           p: padding,
         }}
       >
-        {location && <Guide />}
+        <GuideButton onClick={handleOpenGuide} />
         <Stack spacing={3}>
           <Header title={name} duration={duration} rating={rating} url={url} />
           {narratives?.length > 0 &&
@@ -46,6 +52,7 @@ export default function Index({
             ))}
         </Stack>
       </Box>
+      <Guide open={isGuideOpen} onClose={handleCloseGuide} map={location.map} address={location.address}/>
     </Box>
   );
 }
