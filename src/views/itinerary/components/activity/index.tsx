@@ -52,7 +52,13 @@ export default function Index({
             ))}
         </Stack>
       </Box>
-      <Guide open={isGuideOpen} onClose={handleCloseGuide} map={location.map} address={location.address}/>
+      <Guide
+        open={isGuideOpen}
+        onClose={handleCloseGuide}
+        map={location.map}
+        addressEn={location.addressEn}
+        addressJp={location.addressJp}
+      />
     </Box>
   );
 }

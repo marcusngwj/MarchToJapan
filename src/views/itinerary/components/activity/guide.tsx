@@ -2,7 +2,13 @@ import { MouseEventHandler } from "react";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
-export default function Guide({ open, onClose, map, address }: GuideProp) {
+export default function Guide({
+  open,
+  onClose,
+  map,
+  addressEn,
+  addressJp,
+}: GuideProp) {
   return (
     <Modal open={open} onClose={onClose}>
       <Box
@@ -28,7 +34,8 @@ export default function Guide({ open, onClose, map, address }: GuideProp) {
         />
         <Box sx={{ mt: 1 }}>
           <Box>Address</Box>
-          <Box>{address}</Box>
+          <Box>{addressEn}</Box>
+          {addressJp && <Box>{addressJp}</Box>}
         </Box>
       </Box>
     </Modal>
@@ -39,5 +46,6 @@ type GuideProp = {
   open: boolean;
   onClose: MouseEventHandler<HTMLButtonElement>;
   map: string;
-  address: string;
+  addressEn: string;
+  addressJp?: string;
 };

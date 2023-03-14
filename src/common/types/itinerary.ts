@@ -31,7 +31,8 @@ export type ItineraryItemActivity = {
 };
 
 type ItineraryItemActivityLocation = {
-  address: string;
+  addressEn: string;
+  addressJp?: string;
   map: string;
 };
 
