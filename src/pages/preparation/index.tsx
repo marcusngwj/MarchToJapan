@@ -1,6 +1,14 @@
+import Head from "next/head";
+import Preparation from "@/modules/preparation"
+import { appName } from "@/common/constants/meta";
 
 export default function Index() {
   return (
-    <div>Preparation under construction. Please come back again later.</div>
+    <>
+      <Head>
+        <title>Preparation | {appName}</title>
+      </Head>
+      <Preparation />
+    </>
   );
 }

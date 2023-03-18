@@ -1,6 +1,14 @@
+import Head from "next/head";
+import Expenditure from "@/modules/expenditure"
+import { appName } from "@/common/constants/meta";
 
 export default function Index() {
   return (
-    <div>Expenditure under construction. Please come back again later.</div>
+    <>
+      <Head>
+        <title>Expenditure | {appName}</title>
+      </Head>
+      <Expenditure />
+    </>
   );
 }

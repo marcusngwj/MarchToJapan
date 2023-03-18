@@ -1,6 +1,14 @@
+import Head from "next/head";
+import Frenzy from "@/modules/frenzy"
+import { appName } from "@/common/constants/meta";
 
 export default function Index() {
   return (
-    <div>Frenzy under construction. Please come back again later.</div>
+    <>
+      <Head>
+        <title>Frenzy | {appName}</title>
+      </Head>
+      <Frenzy />
+    </>
   );
 }
