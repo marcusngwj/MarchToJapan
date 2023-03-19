@@ -1,5 +1,6 @@
 import { images } from "@/common/constants/images";
 import { ItineraryDay } from "../types/itineraryProps";
+import Flight from "../components/flight";
 
 export const dayZero: ItineraryDay = {
   name: "Day 0",
@@ -78,8 +79,32 @@ export const dayZero: ItineraryDay = {
     },
     {
       time: "2220",
-      name: "Onboard Scoot",
+      name: "Onboard Scoot (TR808)",
       thumbnail: images.itinerary.scootTakeOff,
+      activity: {
+        duration: "7 hours 40 mins",
+        narratives: [
+          {
+            content: (
+              <Flight
+                departureDate="19 Mar"
+                departureTime="22:20"
+                departureCity="Singapore"
+                departureCityCode="SIN"
+                arrivalDate="20 Mar"
+                arrivalTime="06:00"
+                arrivalCity="Tokyo"
+                arrivalCityCode="NRT"
+                terminal="1"
+                gate="78"
+              />
+            ),
+          },
+          {
+            content: "Let's go!"
+          }
+        ],
+      },
     },
   ],
 };

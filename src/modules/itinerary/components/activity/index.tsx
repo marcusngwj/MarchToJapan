@@ -39,7 +39,16 @@ export default function Index({
           p: padding,
         }}
       >
-        <GuideButton onClick={handleOpenGuide} />
+        {location && <GuideButton onClick={handleOpenGuide} />}
+        {location && (
+          <Guide
+            open={isGuideOpen}
+            onClose={handleCloseGuide}
+            map={location.map}
+            addressEn={location.addressEn}
+            addressJp={location.addressJp}
+          />
+        )}
         <Stack spacing={3}>
           <Header title={name} duration={duration} rating={rating} url={url} />
           {narratives?.length > 0 &&
@@ -52,13 +61,6 @@ export default function Index({
             ))}
         </Stack>
       </Box>
-      <Guide
-        open={isGuideOpen}
-        onClose={handleCloseGuide}
-        map={location.map}
-        addressEn={location.addressEn}
-        addressJp={location.addressJp}
-      />
     </Box>
   );
 }

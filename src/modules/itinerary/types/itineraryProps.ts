@@ -1,3 +1,5 @@
+import { ReactElement } from "react";
+
 export type Itinerary = {
   [day: number]: ItineraryDay;
 };
@@ -16,7 +18,7 @@ export type ItineraryItem = {
 };
 
 export type ItineraryItemActivity = {
-  location: ItineraryItemActivityLocation;
+  location?: ItineraryItemActivityLocation;
   duration: string;
   rating?: number;
   url?: string;
@@ -32,5 +34,5 @@ type ItineraryItemActivityLocation = {
 
 export type ItineraryItemActivityNarrative = {
   title?: string;
-  content: string;
+  content: string | ReactElement;
 };
