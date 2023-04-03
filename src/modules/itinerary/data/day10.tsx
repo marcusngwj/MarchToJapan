@@ -6,39 +6,54 @@ export const dayTen: ItineraryDay = {
   date: "29 March 2023",
   timeline: [
     {
-      time: "0900",
-      name: "Philosopher Path",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "1300",
-      name: "Kyoto Station",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "1430",
+      time: "1200",
       name: "Nara Park",
       thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "1 hour 30 mins",
+        narratives: []
+      }
     },
     {
-      time: "1600",
-      name: "Nara Station",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "1830",
-      name: "Dotonburi",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "2000",
-      name: "Round1 Arcade",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "2000",
+      time: "1445",
       name: "Kuromon Crystal Hotel",
       thumbnail: images.itinerary.placeholder,
+    },
+    {
+      time: "1545",
+      name: "Sushi",
+      thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "20 mins",
+        narratives: [] // Lunch
+      }
+    },
+    {
+      time: "1615",
+      name: "Round 1 Stadium",
+      thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "2 hours 45 mins",
+        narratives: []
+      }
+    },
+    {
+      time: "1930",
+      name: "Shinsaibashi Suji",
+      thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "30 mins",
+        narratives: []
+      }
+    },
+    {
+      time: "2030",
+      name: "Dinner",
+      thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "30 mins",
+        narratives: []
+      }
     },
   ],
 };

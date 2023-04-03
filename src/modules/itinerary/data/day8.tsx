@@ -6,27 +6,30 @@ export const dayEight: ItineraryDay = {
   date: "27 March 2023",
   timeline: [
     {
-      time: "0900",
+      time: "0945",
       name: "Mishima Sky Walk",
       thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "2 hours 15 mins",
+        narratives: []
+      }
     },
     {
-      time: "1530",
+      time: "1630",
       name: "Kyoto International Manga Museum",
+      thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "1 hour",
+        narratives: []
+      }
+    },
+    {
+      time: "1800",
+      name: "Dinner",
       thumbnail: images.itinerary.placeholder,
     },
     {
       time: "1900",
-      name: "Kichi Kichi Omurice",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "2100",
-      name: "Kyoto Tower",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "2200",
       name: "Hotel Wing International Kyoto Shijo Karasuma",
       thumbnail: images.itinerary.placeholder,
     },

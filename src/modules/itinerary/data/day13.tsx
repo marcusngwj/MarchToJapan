@@ -6,29 +6,36 @@ export const dayThirteen: ItineraryDay = {
   date: "1 April 2023",
   timeline: [
     {
-      time: "1000",
-      name: "Shinsaibashi",
+      time: "1115",
+      name: "Nipponbashi Denden Town",
       thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "2 hours 15 mins",
+        narratives: []
+      }
     },
     {
-      time: "1200",
-      name: "Amerika Mura",
+      time: "1345",
+      name: "Sushi Lunch",
       thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "30 mins",
+        narratives: []
+      }
     },
     {
       time: "1400",
-      name: "Shinsaibashi-Suji Shopping Street",
+      name: "Free Time",
       thumbnail: images.itinerary.placeholder,
     },
     {
-      time: "1600",
-      name: "Dotonburi",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "2000",
+      time: "1945",
       name: "teamlab Botanic Gardens",
       thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "30 mins",
+        narratives: []
+      }
     },
   ],
 };

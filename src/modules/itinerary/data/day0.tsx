@@ -12,11 +12,6 @@ export const dayZero: ItineraryDay = {
       thumbnail: images.itinerary.changiAirport,
       // Dinner + luggage Check-in
     },
-    // {
-    //   time: "2000",
-    //   title: "Luggage Check-in",
-    //   thumbnail: images.itinerary.changiAirportCheckIn
-    // },
     {
       time: "2030",
       name: "Changi Lounge",
@@ -73,7 +68,7 @@ export const dayZero: ItineraryDay = {
       },
     },
     {
-      time: "2100",
+      time: "2115",
       name: "Transit Area",
       thumbnail: images.itinerary.changiAirportTransitArea,
     },
@@ -96,7 +91,7 @@ export const dayZero: ItineraryDay = {
                 arrivalCity="Tokyo"
                 arrivalCityCode="NRT"
                 terminal="1"
-                gate="78"
+                gate="D37"
               />
             ),
           },

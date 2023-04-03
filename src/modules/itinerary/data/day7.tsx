@@ -6,28 +6,35 @@ export const daySeven: ItineraryDay = {
   date: "26 March 2023",
   timeline: [
     {
-      time: "0930",
-      name: "Owakudani",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "1200",
-      name: "Hakone Sightseeing Cruise",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "1245",
-      name: "Hakone Shrine",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "1430",
+      time: "1030",
       name: "Gotemba Premium Outlet",
       thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "2 hours",
+        narratives: []
+      }
     },
     {
-      time: "1830",
-      name: "Hakone Kowakien Yunessun",
+      time: "1425",
+      name: "Hakone Sightseeing Cruise",
+      thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "40 mins",
+        narratives: []
+      }
+    },
+    {
+      time: "1530",
+      name: "Hakone Shrine",
+      thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "45 mins",
+        narratives: []
+      }
+    },
+    {
+      time: "2015",
+      name: "Public Bath",
       thumbnail: images.itinerary.placeholder,
     },
   ],

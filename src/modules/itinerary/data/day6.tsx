@@ -6,22 +6,25 @@ export const daySix: ItineraryDay = {
   date: "25 March 2023",
   timeline: [
     {
-      time: "0900",
+      time: "0930",
       name: "AnimeJapan",
       thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "15 mins",
+        narratives: []
+      }
     },
     {
-      time: "1530",
+      time: "1345",
       name: "Tokyo Station",
       thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "4 hours 15 mins",
+        narratives: []
+      }
     },
     {
-      time: "1830",
-      name: "Hakone Kowakien Yunessun",
-      thumbnail: images.itinerary.placeholder,
-    },
-    {
-      time: "2000",
+      time: "2015",
       name: "Wisterian Life Club Verde No Mori",
       thumbnail: images.itinerary.placeholder,
     },

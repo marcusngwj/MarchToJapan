@@ -11,6 +11,7 @@ export const images: ImageDictionary = {
   },
   itinerary: {
     placeholder: `${imageBasePath}/placeholder.png`,
+    tripDotCom: `${itineraryBasePath}/tripDotCom.png`,
     animateIkebukuro: `${itineraryBasePath}/animateIkebukuro.jpg`,
     atHomeAkiba: `${itineraryBasePath}/atHomeAkiba.jpg`,
     changiAirport: `${itineraryBasePath}/changiAirport.jpg`,

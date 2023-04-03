@@ -6,34 +6,58 @@ export const dayFour: ItineraryDay = {
   date: "23 March 2023",
   timeline: [
     {
-      time: "0930",
+      time: "0945",
       name: "Ueno Park",
       thumbnail: images.itinerary.uenoPark,
+      activity: {
+        duration: "45 mins",
+        narratives: []
+      }
     },
     {
       time: "1100",
       name: "at-home cafe",
       thumbnail: images.itinerary.atHomeAkiba,
+      activity: {
+        duration: "1 hour 15 mins",
+        narratives: []
+      }
     },
     {
-      time: "1200",
-      name: "akihabara",
+      time: "1230",
+      name: "Akihabara",
       thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "2 hours 45 mins",
+        narratives: []
+      }
     },
     {
-      time: "1430",
+      time: "1615",
       name: "Tokyo Joypolis",
       thumbnail: images.itinerary.tokyoJoypolis,
+      activity: {
+        duration: "2 hours 15 mins",
+        narratives: []
+      }
     },
     {
-      time: "1800",
-      name: "Meguro River",
-      thumbnail: images.itinerary.meguroRiver,
+      time: "1900",
+      name: "Takoyaki Museum",
+      thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "30 mins",
+        narratives: [] //dinner
+      }
     },
     {
-      time: "1930",
-      name: "Shibuya Yokocho",
-      thumbnail: images.itinerary.shibuyaYokocho,
+      time: "2030",
+      name: "Lotteria",
+      thumbnail: images.itinerary.placeholder,
+      activity: {
+        duration: "30 mins",
+        narratives: [] //dinner
+      }
     },
   ],
 };

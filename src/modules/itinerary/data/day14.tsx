@@ -7,12 +7,13 @@ export const dayFourteen: ItineraryDay = {
   date: "2 April 2023",
   timeline: [
     {
-      time: "1300",
+      time: "130",
       name: "Namba Station",
       thumbnail: images.itinerary.placeholder,
+      // Take Rapit Train
     },
     {
-      time: "1430",
+      time: "1345",
       name: "Kansai International Airport",
       thumbnail: images.itinerary.placeholder,
     },
@@ -35,7 +36,7 @@ export const dayFourteen: ItineraryDay = {
                 arrivalCity="Singapore"
                 arrivalCityCode="SIN"
                 terminal="1"
-                gate="78"
+                gate="11"
               />
             ),
           }
