@@ -20,7 +20,8 @@ function Banner() {
     <Box sx={{ height: "30vh", width: "100%" }}>
       <Box
         sx={{
-          backgroundColor: "beige",
+          background: `url(${images.home.verticalBanner}) no-repeat center`,
+          backgroundSize: "cover",
           height: "100%",
           borderBottomLeftRadius: 35,
           borderBottomRightRadius: 35,
@@ -37,7 +38,7 @@ function BannerHeadline() {
     <Box>
       <Box
         sx={{
-          backgroundColor: "pink",
+          // backgroundColor: "pink",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
@@ -97,7 +98,7 @@ function Itinerary() {
       onclick={() => dispatch(setNavigationIndex(route.itinerary.index))}
       to={{ pathname: route.itinerary.path }}
       sx={{
-        backgroundImage: `url(${images.home.itinerary})`,
+        backgroundImage: `url(${images.home.itineraryTab})`,
         width: "100%",
         flexGrow: 1,
         mb: 2,
@@ -116,7 +117,7 @@ function Preparation() {
       onclick={() => dispatch(setNavigationIndex(route.preparation.index))}
       to={{ pathname: route.preparation.path }}
       sx={{
-        backgroundImage: `url(${images.home.preparation})`,
+        backgroundImage: `url(${images.home.preparationTab})`,
         height: "30%",
         width: "100%",
       }}
@@ -133,7 +134,7 @@ function Frenzy() {
       onclick={() => dispatch(setNavigationIndex(route.frenzy.index))}
       to={{ pathname: route.frenzy.path }}
       sx={{
-        backgroundImage: `url(${images.home.frenzy})`,
+        backgroundImage: `url(${images.home.frenzyTab})`,
         height: "30%",
         width: "100%",
         mb: 2,
@@ -151,7 +152,7 @@ function Expenditure() {
       onclick={() => dispatch(setNavigationIndex(route.expenditure.index))}
       to={{ pathname: route.expenditure.path }}
       sx={{
-        backgroundImage: `url(${images.home.expenditure})`,
+        backgroundImage: `url(${images.home.expenditureTab})`,
         width: "100%",
         flexGrow: 1,
       }}

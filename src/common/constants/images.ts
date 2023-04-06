@@ -4,10 +4,11 @@ const itineraryBasePath = `${imageBasePath}/itinerary`
 
 export const images: ImageDictionary = {
   home: {
-    itinerary: `${homeBasePath}/tab1.png`,
-    preparation: `${homeBasePath}/tab2.jpg`,
-    frenzy: `${homeBasePath}/tab3.jpg`,
-    expenditure: `${homeBasePath}/tab4.webp`,
+    itineraryTab: `${homeBasePath}/tab1.png`,
+    preparationTab: `${homeBasePath}/tab2.jpg`,
+    frenzyTab: `${homeBasePath}/tab3.jpg`,
+    expenditureTab: `${homeBasePath}/tab4.webp`,
+    verticalBanner: `${homeBasePath}/verticalBanner.jpg`
   },
   itinerary: {
     placeholder: `${imageBasePath}/placeholder.png`,
