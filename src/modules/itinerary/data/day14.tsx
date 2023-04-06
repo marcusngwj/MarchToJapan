@@ -36,7 +36,7 @@ export const dayFourteen: ItineraryDay = {
                 arrivalCity="Singapore"
                 arrivalCityCode="SIN"
                 terminal="1"
-                gate="11"
+                gate="1"
               />
             ),
           }
