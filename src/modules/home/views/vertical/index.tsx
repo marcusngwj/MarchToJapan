@@ -38,7 +38,6 @@ function BannerHeadline() {
     <Box>
       <Box
         sx={{
-          // backgroundColor: "pink",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",

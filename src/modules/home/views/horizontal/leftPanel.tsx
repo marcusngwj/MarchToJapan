@@ -1,3 +1,4 @@
+import { images } from "@/common/constants/images";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Unstable_Grid2";
 
@@ -6,14 +7,18 @@ export default function LeftPanel() {
     <Grid
       container
       direction="column"
-      sx={{ backgroundColor: "magenta", height: "100vh" }}
+      sx={{
+        background: `url(${images.home.horizontalLeft}) no-repeat center`,
+        backgroundSize: "cover",
+        height: "100vh",
+      }}
     >
       <Grid xs />
       <Grid
         xs
         container
         direction="column"
-        sx={{ backgroundColor: "orange", padding: 2 }}
+        sx={{ backgroundColor: "transparent", padding: 2 }}
       >
         <Grid xs />
         <Grid
@@ -45,13 +50,13 @@ function DateSection() {
         paddingY: "1rem",
       }}
     >
-      <DateItem label={"Start Date"} date={"19 March 2023"}/>
-      <DateItem label={"End Date"} date={"2 April 2023"}/>
+      <DateItem label={"Start Date"} date={"19 March 2023"} />
+      <DateItem label={"End Date"} date={"2 April 2023"} />
     </Grid>
   );
 }
 
-function DateItem({label, date}: DateItemProp) {
+function DateItem({ label, date }: DateItemProp) {
   return (
     <Grid
       xs
@@ -70,4 +75,4 @@ function DateItem({label, date}: DateItemProp) {
 type DateItemProp = {
   label: string;
   date: string;
-}
+};

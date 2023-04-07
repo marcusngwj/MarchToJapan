@@ -8,7 +8,9 @@ export const images: ImageDictionary = {
     preparationTab: `${homeBasePath}/tab2.jpg`,
     frenzyTab: `${homeBasePath}/tab3.jpg`,
     expenditureTab: `${homeBasePath}/tab4.webp`,
-    verticalBanner: `${homeBasePath}/verticalBanner.jpg`
+    verticalBanner: `${homeBasePath}/verticalBanner.jpg`,
+    horizontalLeft: `${homeBasePath}/horizontalLeft.jpg`,
+    horizontalRight: `${homeBasePath}/horizontalRight.png`
   },
   itinerary: {
     placeholder: `${imageBasePath}/placeholder.png`,
