@@ -8,7 +8,7 @@ export const dayTwo: ItineraryDay = {
     {
       time: "0930",
       name: "Meguro River",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.meguroRiver,
       activity: {
         duration: "1 hour",
         narratives: []
@@ -18,7 +18,7 @@ export const dayTwo: ItineraryDay = {
     {
       time: "1100",
       name: "MEGA Don Quijote Shibuya Honten",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.donQuijote,
       activity: {
         duration: "2 hours",
         narratives: []
@@ -37,7 +37,7 @@ export const dayTwo: ItineraryDay = {
     {
       time: "1430",
       name: "Soup Noodle Ramen",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.soupNoodleRamen,
       activity: {
         duration: "30 mins",
         rating: 3.5,
@@ -80,7 +80,7 @@ export const dayTwo: ItineraryDay = {
     {
       time: "2040",
       name: "Nadai Fujisoba",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.nadaiFujisoba,
       activity: {
         duration: "30 mins",
         rating: 4.5,

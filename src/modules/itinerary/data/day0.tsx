@@ -68,11 +68,6 @@ export const dayZero: ItineraryDay = {
       },
     },
     {
-      time: "2115",
-      name: "Transit Area",
-      thumbnail: images.itinerary.changiAirportTransitArea,
-    },
-    {
       time: "2220",
       name: "Onboard Scoot (TR808)",
       thumbnail: images.itinerary.scootTakeOff,

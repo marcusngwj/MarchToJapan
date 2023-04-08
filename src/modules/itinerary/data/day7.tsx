@@ -17,7 +17,7 @@ export const daySeven: ItineraryDay = {
     {
       time: "1425",
       name: "Hakone Sightseeing Cruise",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.sightseeingCruise,
       activity: {
         duration: "40 mins",
         narratives: []

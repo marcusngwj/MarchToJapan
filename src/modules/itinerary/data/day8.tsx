@@ -8,7 +8,7 @@ export const dayEight: ItineraryDay = {
     {
       time: "0945",
       name: "Mishima Sky Walk",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.mishimaSkywalk,
       activity: {
         duration: "2 hours 15 mins",
         narratives: []
@@ -17,7 +17,7 @@ export const dayEight: ItineraryDay = {
     {
       time: "1630",
       name: "Kyoto International Manga Museum",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.mangaMuseum,
       activity: {
         duration: "1 hour",
         narratives: []

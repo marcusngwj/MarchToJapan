@@ -26,7 +26,7 @@ export const dayNine: ItineraryDay = {
     {
       time: "1045",
       name: "Kotogase Tea House",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.kotogase,
       activity: {
         duration: "25 mins",
         narratives: [] // Lunch
@@ -62,7 +62,7 @@ export const dayNine: ItineraryDay = {
     {
       time: "1900",
       name: "Katsu Curry",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.katsuCurry,
       activity: {
         duration: "25 mins",
         narratives: []

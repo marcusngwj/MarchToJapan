@@ -16,7 +16,7 @@ export const daySix: ItineraryDay = {
     },
     {
       time: "1345",
-      name: "Tokyo Station",
+      name: "Shinjuku Station",
       thumbnail: images.itinerary.placeholder,
       activity: {
         duration: "4 hours 15 mins",

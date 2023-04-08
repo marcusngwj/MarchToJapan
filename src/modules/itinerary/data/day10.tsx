@@ -21,8 +21,8 @@ export const dayTen: ItineraryDay = {
     },
     {
       time: "1545",
-      name: "Sushi",
-      thumbnail: images.itinerary.placeholder,
+      name: "Genrokuzushi",
+      thumbnail: images.itinerary.genrokuzushi,
       activity: {
         duration: "20 mins",
         narratives: [] // Lunch

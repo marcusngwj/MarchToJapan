@@ -26,7 +26,7 @@ export const dayTwelve: ItineraryDay = {
     {
       time: "1330",
       name: "Osaka Aquarium Kaiyukan",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.osakaAquarium,
       activity: {
         duration: "1 hour 45 mins",
         narratives: []
@@ -35,7 +35,7 @@ export const dayTwelve: ItineraryDay = {
     {
       time: "1600",
       name: "Solaniwa Onsen",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.solaniwa,
       activity: {
         duration: "2 hour 15 mins",
         narratives: []

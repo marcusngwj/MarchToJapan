@@ -8,7 +8,7 @@ export const dayFive: ItineraryDay = {
     {
       time: "0930",
       name: "University of Tokyo",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.tokyoUniversity,
       activity: {
         duration: "45 mins",
         narratives: []
@@ -26,7 +26,7 @@ export const dayFive: ItineraryDay = {
     {
       time: "1130",
       name: "Ameyoko Shopping Street",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.ameyoko,
       activity: {
         duration: "30 mins",
         narratives: []
@@ -43,8 +43,8 @@ export const dayFive: ItineraryDay = {
     },
     {
       time: "1700",
-      name: "Asakusa Batting",
-      thumbnail: images.itinerary.placeholder,
+      name: "Asakusa Batting Stadium",
+      thumbnail: images.itinerary.asakusaBattingStadium,
       activity: {
         duration: "30 mins",
         narratives: []
@@ -53,7 +53,7 @@ export const dayFive: ItineraryDay = {
     {
       time: "1800",
       name: "Tokyo Skytree",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.tokyoSkytree,
       activity: {
         duration: "45 mins",
         narratives: []
@@ -62,7 +62,7 @@ export const dayFive: ItineraryDay = {
     {
       time: "1900",
       name: "Grill Cardinal",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.grillCardinal,
       activity: {
         duration: "15 mins",
         narratives: []
@@ -71,7 +71,7 @@ export const dayFive: ItineraryDay = {
     {
       time: "2100",
       name: "Hailey Cafe",
-      thumbnail: images.itinerary.placeholder,
+      thumbnail: images.itinerary.haileyCafe,
     },
   ],
 };

@@ -17,7 +17,7 @@ export const dayFour: ItineraryDay = {
     {
       time: "1100",
       name: "at-home cafe",
-      thumbnail: images.itinerary.atHomeAkiba,
+      thumbnail: images.itinerary.atHomeCafe,
       activity: {
         duration: "1 hour 15 mins",
         narratives: []
