@@ -1,6 +1,7 @@
 import Box from "@mui/material/Box";
 import { ViewProps } from "@/modules/expenditure/types/viewProps";
 import Summary from "../../components/summary";
+import Donut from "../../components/donut";
 
 export default function View({ expenditure, cashback }: ViewProps) {
   const netExpenditure = Object.values(expenditure).reduce(
@@ -21,6 +22,7 @@ export default function View({ expenditure, cashback }: ViewProps) {
         totalExpenditure={totalExpenditure}
         cashback={sumCashback}
       />
+      <Donut />
     </Box>
   );
 }
