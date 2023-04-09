@@ -10,15 +10,17 @@ export default function Index({
   chartData,
 }: ViewProps) {
   return (
-    <Box>
-      <Summary
-        netExpenditure={netExpenditure}
-        totalExpenditure={totalExpenditure}
-        totalCashback={totalCashback}
-      />
-      <Box sx={{height: "50vh", display: "flex", justifyContent: "center"}}>
+    <>
+      <Box sx={{ mt: "2.5vh", mb: "5vh" }}>
+        <Summary
+          netExpenditure={netExpenditure}
+          totalExpenditure={totalExpenditure}
+          totalCashback={totalCashback}
+        />
+      </Box>
+      <Box sx={{ height: "50vh", display: "flex", justifyContent: "center" }}>
         <Donut chartData={chartData} />
       </Box>
-    </Box>
+    </>
   );
 }

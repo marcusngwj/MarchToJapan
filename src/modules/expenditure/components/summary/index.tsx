@@ -3,11 +3,17 @@ import Net from "./net";
 import Cashflow from "./cashflow";
 import { Money } from "@/modules/expenditure/types/money";
 
-export default function Index({ netExpenditure, totalExpenditure, totalCashback }: SummaryProp) {
+export default function Index({
+  netExpenditure,
+  totalExpenditure,
+  totalCashback,
+}: SummaryProp) {
   return (
     <Box>
       <Net amount={netExpenditure} />
-      <Cashflow expenditure={totalExpenditure} cashback={totalCashback} />
+      <Box sx={{mt: 2}}>
+        <Cashflow expenditure={totalExpenditure} cashback={totalCashback} />
+      </Box>
     </Box>
   );
 }
