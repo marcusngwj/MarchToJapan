@@ -1,28 +1,24 @@
 import Box from "@mui/material/Box";
-import { ViewProps } from "@/modules/expenditure/types/viewProps";
 import Summary from "../../components/summary";
 import Donut from "../../components/donut";
+import { ViewProps } from "@/modules/expenditure/types/viewProps";
 
-export default function View({ expenditure, cashback }: ViewProps) {
-  const netExpenditure = Object.values(expenditure).reduce(
-    (sum, value) => sum + value,
-    0
-  );
-  const sumCashback = Object.values(cashback).reduce(
-    (sum, value) => sum + value,
-    0
-  );
-
-  const totalExpenditure = netExpenditure + sumCashback;
-
+export default function View({
+  netExpenditure,
+  totalExpenditure,
+  totalCashback,
+  chartData,
+}: ViewProps) {
   return (
     <Box>
       <Summary
         netExpenditure={netExpenditure}
         totalExpenditure={totalExpenditure}
-        cashback={sumCashback}
+        totalCashback={totalCashback}
       />
-      <Donut />
+      <Box sx={{height: "50vh", display: "flex", justifyContent: "center"}}>
+        <Donut chartData={chartData} />
+      </Box>
     </Box>
   );
 }

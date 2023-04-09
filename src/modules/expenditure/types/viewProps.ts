@@ -1,7 +1,9 @@
-import { Expenditure } from "./expenditure";
-import { Cashback } from "./cashback";
+import { Money } from "./money";
+import { ChartData } from "./chart";
 
 export type ViewProps = {
-  expenditure: Expenditure
-  cashback: Cashback
+  netExpenditure: Money;
+  totalExpenditure: Money;
+  totalCashback: Money;
+  chartData: ChartData;
 };

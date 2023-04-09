@@ -1,23 +1,19 @@
+import Box from "@mui/material/Box";
 import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 import ChartDataLabels from "chartjs-plugin-datalabels";
-import Box from "@mui/material/Box";
-import { data } from "./data";
+import { ChartData } from "../../types/chart";
 import { options } from "./options";
+import { getData } from "./data";
 
-export default function Index() {
+export default function Index({ chartData }: DonutProp) {
   Chart.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
-  return (
-    <Box sx={{ height: "100%" }}>
-      <Doughnut data={data} options={options} />
-    </Box>
-  );
+  const data = getData(chartData);
+
+  return <Doughnut data={data} options={options} />;
 }
 
-// Commands:
-// npm i react-chartjs-2 chart.js chartjs-plugin-datalabels
-
-// Reference:
-// - Chatjs: https://www.chartjs.org/docs/latest/
-// - DataLabels: https://chartjs-plugin-datalabels.netlify.app/samples/charts/doughnut.html
+type DonutProp = {
+  chartData: ChartData;
+};

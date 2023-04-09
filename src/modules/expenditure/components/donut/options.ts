@@ -1,14 +1,13 @@
 export const options = {
   plugins: {
     legend: {
-      position: "right" as const,
+      position: "bottom" as const,
       labels: {
         padding: 15,
+        usePointStyle: true,
       },
     },
     datalabels: {
-      // font: {
-      // },
       formatter: (value: any, context: any) => {
         return (
           (
@@ -20,5 +19,8 @@ export const options = {
         );
       },
     },
+    tooltip: {
+      caretPadding: 25
+    }
   },
 };
