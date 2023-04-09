@@ -4,7 +4,7 @@ import Navigation from "./navigation";
 
 export default function Index() {
   return (
-    <>
+    <Box sx={{ display: "flex", flexDirection: "column", height: "100vh" }}>
       <Box
         sx={{
           background: `url(${images.home.horizontalRight}) no-repeat center`,
@@ -13,6 +13,6 @@ export default function Index() {
         }}
       />
       <Navigation />
-    </>
+    </Box>
   );
 }
