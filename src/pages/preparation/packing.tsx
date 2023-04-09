@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Preparation from "@/modules/preparation/views/main"
+import PackingList from "@/modules/preparation/views/packing"
 import { appName } from "@/common/constants/meta";
 
 export default function Index() {
@@ -8,7 +8,7 @@ export default function Index() {
       <Head>
         <title>Preparation | {appName}</title>
       </Head>
-      <Preparation />
+      <PackingList />
     </>
   );
 }

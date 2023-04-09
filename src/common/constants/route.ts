@@ -14,6 +14,9 @@ export const route: RouteDictionary = {
   preparation: {
     path: "/preparation",
     index: 3,
+    subRoute: {
+      packing: "/preparation/packing"
+    }
   },
   frenzy: {
     path: "/frenzy",
@@ -28,4 +31,9 @@ type RouteDictionary = {
 export type Route = {
   path: string;
   index: number;
+  subRoute?: SubRoute;
 };
+
+type SubRoute = {
+  [name: string]: string
+}
