@@ -3,7 +3,7 @@ import TabPanel from "@mui/lab/TabPanel";
 import Timeline from "./timeline";
 import type { Itinerary } from "@/modules/itinerary/types/itineraryProps";
 
-export default function Schedule({itinerary}: ScheduleProp) {
+export default function Index({itinerary}: ScheduleProp) {
   return (
     <Box sx={{ pb: "60px" }}>
       {Object.entries(itinerary).map(([dayId, day]) => {

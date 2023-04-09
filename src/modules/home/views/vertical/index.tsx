@@ -6,7 +6,7 @@ import { useDispatch } from "@/common/store";
 import { setNavigationIndex } from "@/common/store/slices/navigation";
 import { route } from "@/common/constants/route";
 
-export default function View() {
+export default function Index() {
   return (
     <Box sx={{ height: "100vh", display: "flex", flexDirection: "column" }}>
       <Banner />

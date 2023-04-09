@@ -10,7 +10,7 @@ import {
   getNavigationState,
 } from "@/common/store/slices/navigation";
 
-export default function NavigationBar() {
+export default function Index() {
   const router = useRouter();
   const { isReady } = router;
   const [isLoading, setIsLoading] = useState(true);

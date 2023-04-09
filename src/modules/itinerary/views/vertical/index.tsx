@@ -7,7 +7,7 @@ import Activity from "../../components/activity";
 import type { ViewProps } from "@/modules/itinerary/types/viewProps";
 import { defaultTime } from "@/common/constants/itinerary";
 
-export default function View({ itinerary, day, time }: ViewProps) {
+export default function Index({ itinerary, day, time }: ViewProps) {
   const dayId = parseInt(day);
   const item = itinerary[dayId].timeline.find((item) => item.time === time);
   let activity = item?.activity;

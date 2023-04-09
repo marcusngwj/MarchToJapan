@@ -5,7 +5,7 @@ import Item from "./item";
 import type { Itinerary } from "@/modules/itinerary/types/itineraryProps";
 import { route } from "@/common/constants/route";
 
-export default function Selector({ itinerary, selectedDay }: SelectorProp) {
+export default function Index({ itinerary, selectedDay }: SelectorProp) {
   return (
     <Tabs variant="scrollable" allowScrollButtonsMobile value={selectedDay}>
       {Object.entries(itinerary).map(([dayId, day]) => (

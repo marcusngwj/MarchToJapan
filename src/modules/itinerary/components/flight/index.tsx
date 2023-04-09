@@ -5,7 +5,7 @@ import DateTimeDisplay from "./datetime";
 import Divider from "./divider";
 import LocationDisplay from "./location";
 
-export default function Flight({
+export default function Index({
   departureDate,
   departureTime,
   departureCity,

@@ -3,7 +3,7 @@ import Net from "./net";
 import Cashflow from "./cashflow";
 import { Money } from "@/modules/expenditure/types/money";
 
-export default function Summary({ netExpenditure, totalExpenditure, totalCashback }: SummaryProp) {
+export default function Index({ netExpenditure, totalExpenditure, totalCashback }: SummaryProp) {
   return (
     <Box>
       <Net amount={netExpenditure} />

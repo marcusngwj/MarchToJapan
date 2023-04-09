@@ -3,7 +3,7 @@ import Summary from "../../components/summary";
 import Donut from "../../components/donut";
 import { ViewProps } from "@/modules/expenditure/types/viewProps";
 
-export default function View({
+export default function Index({
   netExpenditure,
   totalExpenditure,
   totalCashback,

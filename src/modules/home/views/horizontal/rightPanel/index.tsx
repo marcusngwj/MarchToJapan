@@ -2,7 +2,7 @@ import { images } from "@/common/constants/images";
 import Box from "@mui/material/Box";
 import Navigation from "./navigation";
 
-export default function RightPanel() {
+export default function Index() {
   return (
     <>
       <Box
