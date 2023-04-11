@@ -1,9 +1,11 @@
 import Box from "@mui/material/Box";
+import Gallery from "../../components/gallery"
+import { ViewProps } from "../../types/viewProps";
 
-export default function Index() {
+export default function Index({ media}: ViewProps) {
   return (
-    <Box sx={{ height: "100vh", display: "flex", flexDirection: "column" }}>
-      <></>
+    <Box>
+      <Gallery data={media}/>
     </Box>
   );
 }
