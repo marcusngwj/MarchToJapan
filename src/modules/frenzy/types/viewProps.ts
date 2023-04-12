@@ -1,5 +1,5 @@
-import { MediaCollection } from "./media";
+import { Graphic } from "./media";
 
 export type ViewProps = {
-  media: MediaCollection;
+  media: Graphic[];
 };

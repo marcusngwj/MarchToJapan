@@ -1,12 +1,6 @@
-export type MediaCollection = Asset[];
-
-export type Asset = {
+export type Graphic = {
   thumbnail: string;
-  content: Content;
-};
-
-type Content = {
-  url: string;
+  src: string;
   name: string;
   description: string;
   tags?: string[];
