@@ -15,11 +15,13 @@ export default function Index({ data }: GalleryProp) {
       rowHeight={rowHeight}
     >
       {data.map((item) => (
-        <Button key={item.name}
+        <Button
+          key={item.name}
           LinkComponent={Link}
           href={`${route.frenzy.path}?name=${item.name}`}
+          sx={{ p: 0 }}
         >
-          <ImageListItem key={item.name}>
+          <ImageListItem key={item.name} sx={{ width: "100%" }}>
             <img
               src={`${item.thumbnail}?fit=crop&auto=format`}
               alt={item.name}
