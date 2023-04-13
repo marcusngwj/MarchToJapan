@@ -46,6 +46,7 @@ export default function Index() {
 
   if (
     router.pathname === route.itinerary.path && router.query["time"] !== undefined || 
+    router.pathname === route.frenzy.path && router.query["name"] !== undefined ||
     router.pathname !== route.itinerary.path &&
     router.pathname !== route.expenditure.path &&
     router.pathname !== route.preparation.path &&

@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import Box from "@mui/material/Box";
 import Gallery from "../../components/gallery";
+import Detail from "../../components/detail";
 import { ViewProps } from "../../types/viewProps";
 import { Graphic } from "../../types/media";
-import Detail from "../../components/detail";
 
 export default function Index({ media }: ViewProps) {
   const router = useRouter();
@@ -12,38 +11,22 @@ export default function Index({ media }: ViewProps) {
   const { name } = router.query;
 
   const [isLoading, setIsLoading] = useState(true);
+  const [content, setContent] = useState<Graphic>();
 
   useEffect(() => {
     if (isReady) {
-      console.log("Router IS READY");
+      const mediaContent = media.find((item) => item.name === name);
+      setContent(mediaContent);
 
       setIsLoading(false);
     }
-  }, [isReady]);
+  }, [isReady, name]);
 
   return (
     <>
       {isReady &&
         !isLoading &&
-        (name ? (
-          <>
-            <Detail
-              content={
-                media.find((item) => item.name === name) ??
-                temp
-              }
-            />
-          </>
-        ) : (
-          <Gallery data={media} />
-        ))}
+        (content ? <Detail content={content} /> : <Gallery data={media} />)}
     </>
   );
 }
-
-const temp: Graphic = {
-  thumbnail: "",
-  src: "",
-  name: "",
-  description: "",
-};

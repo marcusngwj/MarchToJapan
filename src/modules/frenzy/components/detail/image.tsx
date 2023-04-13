@@ -3,12 +3,19 @@ import Box from "@mui/material/Box";
 
 export default function Image({ src, name }: ImageProp) {
   return (
-    <Box sx={{ width: "100vw", height: "30vh", position: "relative" }}>
+    <Box
+      sx={{
+        height: "70vh",
+        width: "100vw",
+        position: "relative",
+        backgroundColor: "black",
+      }}
+    >
       <BaseImage
         src={src}
         alt={name}
         fill
-        style={{ height: "100%", width: "100%" }}
+        style={{ height: "100%", maxWidth: "100%", objectFit: "contain" }}
       />
     </Box>
   );
