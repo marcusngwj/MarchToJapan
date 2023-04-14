@@ -4,6 +4,7 @@ import { Graphic } from "../../types/media";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 import { route } from "@/common/constants/route";
+import Item from "./item";
 
 export default function Index({ data }: GalleryProp) {
   const rowHeight = 164;
@@ -15,25 +16,7 @@ export default function Index({ data }: GalleryProp) {
       rowHeight={rowHeight}
     >
       {data.map((item) => (
-        <Button
-          key={item.name}
-          LinkComponent={Link}
-          href={`${route.frenzy.path}?name=${item.name}`}
-          sx={{ p: 0 }}
-        >
-          <ImageListItem key={item.name} sx={{ width: "100%" }}>
-            <img
-              src={`${item.thumbnail}?fit=crop&auto=format`}
-              alt={item.name}
-              loading="lazy"
-              style={{
-                objectFit: "cover",
-                objectPosition: "center",
-                height: rowHeight,
-              }}
-            />
-          </ImageListItem>
-        </Button>
+        <Item name={item.name} thumbnail={item.thumbnail} height={rowHeight} />
       ))}
     </ImageList>
   );
