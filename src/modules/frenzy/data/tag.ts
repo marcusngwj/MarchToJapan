@@ -1,6 +1,16 @@
 export enum Tag {
-  image = "Image",
-  video = "Video",
-  meguroRiver = "Meguro River",
-  dango = "Dango"
+  image = "image",
+  video = "video",
+  brothers = "brothers",
+  changiLounge = "changilounge",
+  cherryBlossoms = "cherryblossoms",
+  dango = "dango",
+  fushimiInari = "fushimiinaritaisha",
+  hakoneShrine = "hakoneshrine",
+  meguroRiver = "meguroriver",
+  naritaAirport = "naritaAirport",
+  naritaExpress = "naritaExpress",
+  onPlane = "onplane",
+  templeRun = "templerun",
+  wanderlust = "wanderlust",
 }

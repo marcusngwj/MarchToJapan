@@ -1,6 +1,5 @@
 import { Graphic } from "../types/media";
 import { Tag } from "./tag";
-import { videos } from "@/common/constants/video";
 import { images } from "@/common/constants/images";
 
 export const media: Graphic[] = [

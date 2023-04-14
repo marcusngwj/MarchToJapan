@@ -1,9 +1,5 @@
 import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
 import { Graphic } from "../../types/media";
-import Button from "@mui/material/Button";
-import Link from "next/link";
-import { route } from "@/common/constants/route";
 import Item from "./item";
 
 export default function Index({ data }: GalleryProp) {

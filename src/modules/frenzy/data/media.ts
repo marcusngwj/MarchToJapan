@@ -1,54 +1,77 @@
 import { Graphic } from "../types/media";
 import { Tag } from "./tag";
-import { videos } from "@/common/constants/video";
+import { Image } from "@/common/constants/images";
+import { Video } from "@/common/constants/video";
 
 export const media: Graphic[] = [
   {
-    thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ChilliCrabMantou.jpg?alt=media&token=25e32103-46ba-4925-8e32-a37b922c1e57",
-    src: "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ChilliCrabMantou.jpg?alt=media&token=25e32103-46ba-4925-8e32-a37b922c1e57",
-    name: "Chilli Crab with Mantou",
-    description: "Chilli Crab with Mantou",
-    tags: [Tag.image],
+    thumbnail: Image.loungeCoffeeMaking,
+    src: Image.loungeCoffeeMaking,
+    name: "Coffee Making",
+    description:
+      "Who needs a barista when you've got a coffee-making pro? ☕️👨‍🍳 There's nothing like a freshly brewed cup of coffee while waiting for our night flight at Changi Lounge.",
+    tags: [Tag.image, Tag.changiLounge],
   },
   {
-    thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/BeefLasagne.jpg?alt=media&token=f80b9eb9-a7ff-48dd-be0e-6f8eb28357f3",
-    src: "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/BeefLasagne.jpg?alt=media&token=f80b9eb9-a7ff-48dd-be0e-6f8eb28357f3",
-    name: "Beef Lasagne",
-    description: "Placeholder",
-    tags: [Tag.image],
+    thumbnail: Image.boardingPass,
+    src: Image.boardingPass,
+    name: "Our Boarding Pass",
+    description:
+      "Finally embarking on our long-awaited adventure together! Singapore to Tokyo, here we come!",
+    tags: [Tag.image, Tag.wanderlust],
   },
   {
-    thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/Dango.jpg?alt=media&token=86c11897-3eb2-4e96-985d-b6071cddcf4c",
-    src: videos.dango,
-    name: "Dango at Meguro River",
-    description: "Placeholder",
-    tags: [Tag.video, Tag.meguroRiver, Tag.dango],
+    thumbnail: Image.planeToNaritaWithBro,
+    src: Image.planeToNaritaWithBro,
+    name: "Take off",
+    description:
+      "Taking off into the night, ready for a new adventure! 🌙✈️ There's something about flying that brings a sense of freedom and excitement. The excitement of traveling to a new destination is always amplified when you have a companion by your side!",
+    tags: [Tag.image, Tag.onPlane, Tag.brothers],
   },
   {
-    thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/20230118224158.png?alt=media&token=14f0f867-0caf-4bce-909a-2ac2eb639a1a",
-    src: "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/20230118224158.png?alt=media&token=14f0f867-0caf-4bce-909a-2ac2eb639a1a",
-    name: "Placeholder4",
-    description: "Placeholder",
-    tags: [Tag.image],
+    thumbnail: Image.arrivalTemperature,
+    src: Image.arrivalTemperature,
+    name: "Cold Temperature",
+    description:
+      "Brrr! ❄️😬 It's a cold start to the day here at Narita Airport Terminal 1, with the temperature at 7.1°C.",
+    tags: [Tag.image, Tag.naritaAirport],
   },
   {
-    thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/20230118224158.png?alt=media&token=14f0f867-0caf-4bce-909a-2ac2eb639a1a",
-    src: "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/20230118224158.png?alt=media&token=14f0f867-0caf-4bce-909a-2ac2eb639a1a",
-    name: "Placeholder5",
-    description: "Placeholder",
-    tags: [Tag.image],
+    thumbnail: Image.naritaAirportWithBro,
+    src: Image.naritaAirportWithBro,
+    name: "Touch down safely",
+    description:
+      "Greetings from Narita Airport Terminal 1! Starting the day off with a chilly welcome ❄️😎. Sometimes you just have to embrace the cold and enjoy the journey! Who needs extra layers when you have the excitement of travel to keep you warm?",
+    tags: [Tag.image, Tag.naritaAirport, Tag.brothers],
   },
   {
-    thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/20230118224158.png?alt=media&token=14f0f867-0caf-4bce-909a-2ac2eb639a1a",
-    src: "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/20230118224158.png?alt=media&token=14f0f867-0caf-4bce-909a-2ac2eb639a1a",
-    name: "Placeholder6",
-    description: "Placeholder",
-    tags: [Tag.image],
+    thumbnail: Image.naritaExpressWithBro,
+    src: Image.naritaExpressWithBro,
+    name: "The Narita Express",
+    description:
+      "Off to explore Tokyo on the Narita Express!🚆 The city is calling, and we're excited to explore everything it has to offer. From the food to the sights, we're ready to immerse ourselves in the culture and create unforgettable memories.",
+    tags: [Tag.image, Tag.naritaExpress, Tag.brothers],
+  },
+  {
+    thumbnail: Image.dangoWithBro,
+    src: Video.dango,
+    name: "Dango by the Meguro River",
+    description:
+      "Nothing beats good food and great company, especially when surrounded by Tokyo's famous sakura blooms 🌸",
+    tags: [
+      Tag.video,
+      Tag.meguroRiver,
+      Tag.dango,
+      Tag.cherryBlossoms,
+      Tag.brothers,
+    ],
+  },
+  {
+    thumbnail: Image.placeholder,
+    src: Video.templeRun,
+    name: "Temple Run in real life",
+    description:
+      "Who needs Temple Run when you have Japan's stunning shrines and temples to explore? It's amazing how these ancient sites can still give us the same rush of adrenaline and excitement as a video game. 🏃‍♂️⛩️ The truth is, we were rushing to board the Hakone Sightseeing Cruise after our photo taking at the torii gate.",
+    tags: [Tag.video, Tag.hakoneShrine, Tag.fushimiInari, Tag.templeRun],
   },
 ];

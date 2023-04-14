@@ -1,7 +1,4 @@
-export const videos: VideoDictionary = {
-  dango: "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/Dango.mp4?alt=media&token=07f4699f-86a2-43e4-a827-68eb97d9a298"
-};
-
-type VideoDictionary = {
-  dango: string;
-};
+export enum Video {
+  dango = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/Dango.mp4?alt=media&token=07f4699f-86a2-43e4-a827-68eb97d9a298",
+  templeRun = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/TempleRun.mp4?alt=media&token=ed70edb3-bf80-4053-8b07-a89f881d2b3d",
+}

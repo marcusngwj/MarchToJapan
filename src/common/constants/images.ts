@@ -61,3 +61,16 @@ type ImageDictionary = {
     [item: string]: string;
   };
 };
+
+export enum Image {
+  placeholder = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/20230118224158.png?alt=media&token=14f0f867-0caf-4bce-909a-2ac2eb639a1a",
+  arrivalTemperature = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ArrivalTemperature.jpg?alt=media&token=dde31888-4844-4e7b-ad88-075aed17dfab",
+  beefLasagne = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/BeefLasagne.jpg?alt=media&token=f80b9eb9-a7ff-48dd-be0e-6f8eb28357f3",
+  boardingPass = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/BoardingPass.jpg?alt=media&token=3a848f8d-2e27-43e1-9077-c93cdac1a054",
+  chilliCrabWithMantou = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ChilliCrabMantou.jpg?alt=media&token=25e32103-46ba-4925-8e32-a37b922c1e57",
+  dangoWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/DangoWithBro.jpg?alt=media&token=622a8aab-b83f-4f05-8341-a60e5381ca2a",
+  loungeCoffeeMaking = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/LoungeCoffeeMaking.jpg?alt=media&token=946b8727-ff92-4d04-911c-710b7163c424",
+  naritaAirportWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/NaritaAirportWithBro.jpg?alt=media&token=422180f2-cd8f-410a-9d74-0a81d1a9949e",
+  naritaExpressWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/NaritaExpressWithBro.jpg?alt=media&token=c8156c9c-e744-46d4-aa78-132c65314c77",
+  planeToNaritaWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/PlaneToNaritaWithBro.jpg?alt=media&token=ca623d4e-e2b2-4c99-a651-9e27b369d0df",
+}
