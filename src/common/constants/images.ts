@@ -75,9 +75,13 @@ export enum Image {
   kotagaseWithPikachu = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/KotagaseWithPikachu.jpg?alt=media&token=b9555b03-0a2d-4b4a-8ff3-d03574c07fe7",
   iwatayamaTickets = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/IwatayamaTickets.jpg?alt=media&token=70160394-3e74-4fff-89c8-e7043fae7ad6",
   loungeCoffeeMaking = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/LoungeCoffeeMaking.jpg?alt=media&token=946b8727-ff92-4d04-911c-710b7163c424",
+  meijiShrineWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineWithBro.jpg?alt=media&token=35324995-b42a-4b13-8d31-bac0b0022138",
+  meijiShrineWish = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineWish.jpg?alt=media&token=8ee0c85e-e3a4-470e-8d80-68f4a4795e62",
   mishimaSkywalkPeripheral = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/SkywalkPeripheral.jpg?alt=media&token=2fb0246e-fce7-480c-8c94-eef969ce9644",
   naritaAirportWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/NaritaAirportWithBro.jpg?alt=media&token=422180f2-cd8f-410a-9d74-0a81d1a9949e",
   naritaExpressWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/NaritaExpressWithBro.jpg?alt=media&token=c8156c9c-e744-46d4-aa78-132c65314c77",
   planeToNaritaWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/PlaneToNaritaWithBro.jpg?alt=media&token=ca623d4e-e2b2-4c99-a651-9e27b369d0df",
   shinjukuHotelWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShinjukuHotelWithBro.jpg?alt=media&token=c24087b3-576d-423e-b447-8d0b97346e63",
+  takeshitaWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/TakeshitaWithBro.jpg?alt=media&token=2925442a-8313-4efb-942d-9b66fb157f3d",
+  yoyogiParkTransparentToilet = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/YoyogiParkTransparentToilet.jpg?alt=media&token=7179e2a7-204e-4ea4-bad4-ab064c474ea7",
 }

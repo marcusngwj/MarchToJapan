@@ -15,6 +15,7 @@ export enum Tag {
   iwatayamaMonkeyPark = "iwatayamamonkeypark",
   kotagase = "kotagaseteahouse",
   meguroRiver = "meguroriver",
+  meijiShrine = "meijishrine",
   mishimaSkywalk = "mishimaskywalk",
   naritaAirport = "naritaairport",
   naritaExpress = "nex",
@@ -22,8 +23,10 @@ export enum Tag {
   pikachu = "pikachu",
   shinjukuHotel = "shinjukuwashingtonhotel",
   sweetMarche = "sweetmarche",
+  takeshita = "takeshitastreet",
   templeRun = "templerun",
   tetoteConnect = "tetoteconnect",
   ticket = "ticket",
   wanderlust = "wanderlust",
+  yoyogiPark = "yoyogiPark",
 }

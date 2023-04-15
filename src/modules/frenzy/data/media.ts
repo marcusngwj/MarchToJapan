@@ -69,6 +69,38 @@ export const media: Graphic[] = [
     tags: [Tag.gyukatsuMotomura, Tag.food, Tag.image],
   },
   {
+    thumbnail: Image.takeshitaWithBro,
+    src: Image.takeshitaWithBro,
+    name: "Crowded Takeshita Street",
+    description:
+      "Captured the hustle and bustle of Tokyo's famous Takeshita Street. This vibrant street in the heart of Harajuku is known for its unique fashion boutiques, colorful crepe stands, and buzzing energy.",
+    tags: [Tag.takeshita, Tag.brothers, Tag.image],
+  },
+  {
+    thumbnail: Image.meijiShrineWithBro,
+    src: Image.meijiShrineWithBro,
+    name: "Meiji Shrine",
+    description:
+      "Captivated by the beauty of Meiji Shrine's torii gate. We took a moment to reflect and pay our respects at the torii gate, a symbol of the Shinto religion and a reminder of the deep spiritual roots of Japan.",
+    tags: [Tag.meijiShrine, Tag.brothers, Tag.image],
+  },
+  {
+    thumbnail: Image.meijiShrineWish,
+    src: Image.meijiShrineWish,
+    name: "Meiji Shrine Wish Writing",
+    description:
+      "The shrine offers a special place for visitors to write their wishes. While we didn't write any wishes ourselves, it's still a meaningful and unique tradition to witness and capture in a photo.",
+    tags: [Tag.meijiShrine, Tag.image],
+  },
+  {
+    thumbnail: Image.yoyogiParkTransparentToilet,
+    src: Image.yoyogiParkTransparentToilet,
+    name: "Transparent Toilet at Yoyogi Park",
+    description:
+      "Checking out the innovative transparent toilet in Yoyogi Park! While the concept of a see-through restroom may seem strange at first, we were fascinated by the unique design and the potential for increased safety and cleanliness. There's a sign that explains it's currently in a non-transparent state, but you can still use it as usual.",
+    tags: [Tag.yoyogiPark, Tag.image],
+  },
+  {
     thumbnail: Image.dangoWithBro,
     src: Video.dango,
     name: "Dango by the Meguro River",
