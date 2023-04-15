@@ -67,11 +67,35 @@ export const media: Graphic[] = [
     ],
   },
   {
+    thumbnail: Image.gotembaCrepe,
+    src: Image.gotembaCrepe,
+    name: "Strawberry Crepe",
+    description:
+      "Sweet tooth, satisfied! 🍓😋 Can you imagine the sweet aroma and the luscious texture of the fresh strawberries and whipped cream inside? And the crispy thin crepe, baked to perfection? It's a heavenly combination! ",
+    tags: [Tag.image, Tag.gotemba, Tag.sweetMarche, Tag.crepe],
+  },
+  {
     thumbnail: Image.placeholder,
     src: Video.templeRun,
     name: "Temple Run in real life",
     description:
       "Who needs Temple Run when you have Japan's stunning shrines and temples to explore? It's amazing how these ancient sites can still give us the same rush of adrenaline and excitement as a video game. 🏃‍♂️⛩️ The truth is, we were rushing to board the Hakone Sightseeing Cruise after our photo taking at the torii gate.",
     tags: [Tag.video, Tag.hakoneShrine, Tag.fushimiInari, Tag.templeRun],
+  },
+  {
+    thumbnail: Image.iwatayamaTickets,
+    src: Image.iwatayamaTickets,
+    name: "Iwatayama Monkey Park Tickets",
+    description:
+      "Ready for some monkey business at Iwatayama Monkey Park! Just got our tickets and we can't wait to meet these curious creatures up close and personal.",
+    tags: [Tag.image, Tag.iwatayamaMonkeyPark, Tag.ticket],
+  },
+  {
+    thumbnail: Image.kotagaseWithPikachu,
+    src: Image.kotagaseWithPikachu,
+    name: "Pikachu at the Kotagase Tea House",
+    description:
+      "Take a break from the hustle and bustle of the city and join us for a peaceful meal by the river at Kotogase Team House! With a delicious spread of dango and oden, you won't want to leave this serene paradise anytime soon. Sometimes it's the simple things that bring us the most joy. It's moments like these that remind us to slow down, appreciate the beauty around us, and savor every bite of life.",
+    tags: [Tag.image, Tag.kotagase, Tag.pikachu],
   },
 ];
