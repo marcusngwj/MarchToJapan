@@ -10,7 +10,7 @@ export const media: Graphic[] = [
     name: "Coffee Making",
     description:
       "Who needs a barista when you've got a coffee-making pro? ☕️👨‍🍳 There's nothing like a freshly brewed cup of coffee while waiting for our night flight at Changi Lounge.",
-    tags: [Tag.image, Tag.changiLounge],
+    tags: [Tag.changiLounge, Tag.food, Tag.image],
   },
   {
     thumbnail: Image.boardingPass,
@@ -18,7 +18,7 @@ export const media: Graphic[] = [
     name: "Our Boarding Pass",
     description:
       "Finally embarking on our long-awaited adventure together! Singapore to Tokyo, here we come!",
-    tags: [Tag.image, Tag.wanderlust],
+    tags: [Tag.wanderlust, Tag.image],
   },
   {
     thumbnail: Image.planeToNaritaWithBro,
@@ -26,7 +26,7 @@ export const media: Graphic[] = [
     name: "Take off",
     description:
       "Taking off into the night, ready for a new adventure! 🌙✈️ There's something about flying that brings a sense of freedom and excitement. The excitement of traveling to a new destination is always amplified when you have a companion by your side!",
-    tags: [Tag.image, Tag.onPlane, Tag.brothers],
+    tags: [Tag.onPlane, Tag.brothers, Tag.image],
   },
   {
     thumbnail: Image.arrivalTemperature,
@@ -34,7 +34,7 @@ export const media: Graphic[] = [
     name: "Cold Temperature",
     description:
       "Brrr! ❄️😬 It's a cold start to the day here at Narita Airport Terminal 1, with the temperature at 7.1°C.",
-    tags: [Tag.image, Tag.naritaAirport],
+    tags: [Tag.naritaAirport, Tag.image],
   },
   {
     thumbnail: Image.naritaAirportWithBro,
@@ -42,7 +42,7 @@ export const media: Graphic[] = [
     name: "Touch down safely",
     description:
       "Greetings from Narita Airport Terminal 1! Starting the day off with a chilly welcome ❄️😎. Sometimes you just have to embrace the cold and enjoy the journey! Who needs extra layers when you have the excitement of travel to keep you warm?",
-    tags: [Tag.image, Tag.naritaAirport, Tag.brothers],
+    tags: [Tag.naritaAirport, Tag.brothers, Tag.image],
   },
   {
     thumbnail: Image.naritaExpressWithBro,
@@ -50,7 +50,23 @@ export const media: Graphic[] = [
     name: "The Narita Express",
     description:
       "Off to explore Tokyo on the Narita Express!🚆 The city is calling, and we're excited to explore everything it has to offer. From the food to the sights, we're ready to immerse ourselves in the culture and create unforgettable memories.",
-    tags: [Tag.image, Tag.naritaExpress, Tag.brothers],
+    tags: [Tag.naritaExpress, Tag.brothers, Tag.image],
+  },
+  {
+    thumbnail: Image.shinjukuHotelWithBro,
+    src: Image.shinjukuHotelWithBro,
+    name: "Shinjuku Washington Hotel",
+    description:
+      "Tokyo, here we come! Our adventure starts at the iconic Shinjuku Washington Hotel, our first home in this bustling city. After dropping off our luggage with the friendly hotel staff, we're ready to explore all that Tokyo has to offer! So here's to new beginnings, unforgettable adventures, and the magic of Tokyo!",
+    tags: [Tag.shinjukuHotel, Tag.brothers, Tag.image],
+  },
+  {
+    thumbnail: Image.gyukatsuMotomuraSetMeal,
+    src: Image.gyukatsuMotomuraSetMeal,
+    name: "2 Cutlet Set Meal at Gyukatsu Motomura Harajuku",
+    description:
+      "Craving some delicious Japanese cuisine? Look no further than Gyukatsu Motomura Harajuku! The crispy golden crust of the beef cutlet is simply divine, while the juicy tender meat inside melts in your mouth. One bite and we were in foodie heaven, with every subsequent bite setting the bar higher and higher for any other meal we'll have in Japan.",
+    tags: [Tag.gyukatsuMotomura, Tag.food, Tag.image],
   },
   {
     thumbnail: Image.dangoWithBro,
@@ -59,11 +75,12 @@ export const media: Graphic[] = [
     description:
       "Nothing beats good food and great company, especially when surrounded by Tokyo's famous sakura blooms 🌸",
     tags: [
-      Tag.video,
       Tag.meguroRiver,
       Tag.dango,
       Tag.cherryBlossoms,
       Tag.brothers,
+      Tag.food,
+      Tag.video,
     ],
   },
   {
@@ -72,7 +89,15 @@ export const media: Graphic[] = [
     name: "Strawberry Crepe",
     description:
       "Sweet tooth, satisfied! 🍓😋 Can you imagine the sweet aroma and the luscious texture of the fresh strawberries and whipped cream inside? And the crispy thin crepe, baked to perfection? It's a heavenly combination! ",
-    tags: [Tag.image, Tag.gotemba, Tag.sweetMarche, Tag.crepe],
+    tags: [Tag.gotemba, Tag.sweetMarche, Tag.crepe, Tag.food, Tag.image],
+  },
+  {
+    thumbnail: Image.mishimaSkywalkPeripheral,
+    src: Image.mishimaSkywalkPeripheral,
+    name: "Mishima Skywalk Peripheral View",
+    description:
+      "Take a deep breath and soak in the awe-inspiring views from the top of the Mishima Skywalk! This incredible suspension bridge stretches over 400 meters long and offers panoramic vistas of the surrounding nature, including the stunning Mt. Fuji in the distance, which unfortunately we couldn't see due to the weather conditions. Nonetheless, walking across this engineering marvel is a thrilling experience, with the gentle sway of the bridge adding to the excitement.",
+    tags: [Tag.mishimaSkywalk, Tag.image],
   },
   {
     thumbnail: Image.placeholder,
@@ -80,7 +105,21 @@ export const media: Graphic[] = [
     name: "Temple Run in real life",
     description:
       "Who needs Temple Run when you have Japan's stunning shrines and temples to explore? It's amazing how these ancient sites can still give us the same rush of adrenaline and excitement as a video game. 🏃‍♂️⛩️ The truth is, we were rushing to board the Hakone Sightseeing Cruise after our photo taking at the torii gate.",
-    tags: [Tag.video, Tag.hakoneShrine, Tag.fushimiInari, Tag.templeRun],
+    tags: [
+      Tag.hakoneShrine,
+      Tag.fushimiInari,
+      Tag.iwatayamaMonkeyPark,
+      Tag.templeRun,
+      Tag.video,
+    ],
+  },
+  {
+    thumbnail: Image.fushimiInariWagyuSkewer,
+    src: Image.fushimiInariWagyuSkewer,
+    name: "Wagyu Skewer near Fushimi Inari Taisha",
+    description:
+      "Savouring the moment!🤤 The succulent meat was grilled to perfection, and the aroma was simply irresistible! The contrast between the savory meat and the vibrant colors of the gate was a feast for the eyes and the taste buds! The best part? It only cost ¥1000! Such a steal for such a premium delicacy. 😋",
+    tags: [Tag.fushimiInari, Tag.food, Tag.image],
   },
   {
     thumbnail: Image.iwatayamaTickets,
@@ -88,7 +127,7 @@ export const media: Graphic[] = [
     name: "Iwatayama Monkey Park Tickets",
     description:
       "Ready for some monkey business at Iwatayama Monkey Park! Just got our tickets and we can't wait to meet these curious creatures up close and personal.",
-    tags: [Tag.image, Tag.iwatayamaMonkeyPark, Tag.ticket],
+    tags: [Tag.iwatayamaMonkeyPark, Tag.ticket, Tag.image],
   },
   {
     thumbnail: Image.kotagaseWithPikachu,
@@ -96,6 +135,14 @@ export const media: Graphic[] = [
     name: "Pikachu at the Kotagase Tea House",
     description:
       "Take a break from the hustle and bustle of the city and join us for a peaceful meal by the river at Kotogase Team House! With a delicious spread of dango and oden, you won't want to leave this serene paradise anytime soon. Sometimes it's the simple things that bring us the most joy. It's moments like these that remind us to slow down, appreciate the beauty around us, and savor every bite of life.",
-    tags: [Tag.image, Tag.kotagase, Tag.pikachu],
+    tags: [Tag.kotagase, Tag.pikachu, Tag.food, Tag.image],
+  },
+  {
+    thumbnail: Image.placeholder,
+    src: Video.tetoteConnect,
+    name: "Tetote X Connect",
+    description:
+      "Ready, set, connect! Tetote x Connect is the ultimate arcade experience that's taking Japan by storm! This innovative game combines strategy, skill, and a little bit of luck, as you race against the clock to connect as many Tetote balls as possible and groove along to the funky beats with your partner! 💃🕺 It's a thrilling challenge that will have you hooked from the first play, and the bright colors, flashing lights, and pumping music make it an immersive sensory experience like no other! This game is the perfect way to unwind and have some fun after a long day of sightseeing",
+    tags: [Tag.tetoteConnect, Tag.arcade, Tag.video],
   },
 ];
