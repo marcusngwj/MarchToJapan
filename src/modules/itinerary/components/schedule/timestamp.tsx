@@ -21,7 +21,7 @@ export default function TimeIndicator({ time }: TimestampProp) {
         }}
       ></Box>
       <Box sx={{ width: 100, display: "flex", justifyContent: "center" }}>
-        {time}
+        {`${time.substring(0, 2)}:${time.substring(2)}`}
       </Box>
       <Box
         sx={{
