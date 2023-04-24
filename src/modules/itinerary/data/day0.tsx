@@ -2,6 +2,10 @@ import { images } from "@/common/constants/images";
 import { ItineraryDay } from "../types/itineraryProps";
 import Flight from "../components/flight";
 
+import ImageComponent from "next/image";
+import Box from "@mui/material/Box";
+import { Image } from "@/common/constants/images";
+
 export const dayZero: ItineraryDay = {
   name: "Day 0",
   date: "19 March 2023",
@@ -91,8 +95,56 @@ export const dayZero: ItineraryDay = {
             ),
           },
           {
-            content: "Let's go!"
-          }
+            title: "Comparing Prices",
+            content:
+              "We wanted to travel to Japan, so we looked at a bunch of different websites to find the best prices for flights. We compared prices from Singapore Airlines, Trip.com, Expedia, and All Nippon Airways (ANA), but it turned out that buying directly from Scoot was the cheapest for the dates we wanted.",
+          },
+          {
+            content:
+              "After looking at the places we wanted to go, we decided it would be better to get a multi-city flight instead of a JR pass, so we could explore different cities without worrying about transportation costs.",
+          },
+          {
+            content:
+              "We figured out that Tokyo was the best place to start our trip, because we wanted to see the cherry blossoms. We wanted to arrive in the morning, so we looked for a night flight that would get us there without wasting any time.",
+          },
+          {
+            content:
+              "We didn't have a lot of stuff to bring with us, so we just got the 20kg checked luggage allowance.",
+          },
+          {
+            content:
+              "Our flight schedule changed once, so we had to adjust our plans a bit, but it wasn't a big deal. We still got to Tokyo around the same time as we planned.",
+          },
+          {
+            title: "Check-in",
+            content:
+              "When we got to the airport, we checked in at the Scoot counter. They open the counters three hours before the flight and close them 60 minutes before, so we made sure to get there at least 90 minutes before our departure time. We did web check-in, but it didn't really make a difference on our way to Japan. However, when we were coming back, we noticed that there was a separate, faster line for people who had already checked in online.",
+          },
+          {
+            content: (
+              <Box
+                sx={{
+                  height: "50vh",
+                  width: "100%",
+                  position: "relative",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center"
+                }}
+              >
+                <ImageComponent
+                  src={Image.planeToNaritaWithBro}
+                  alt="Plane from Singapore to Tokyo"
+                  fill
+                  style={{
+                    height: "100%",
+                    maxWidth: "100%",
+                    objectFit: "contain",
+                  }}
+                />
+              </Box>
+            ),
+          },
         ],
       },
     },

@@ -8,7 +8,7 @@ export default function Narrative({
 }: ItineraryItemActivityNarrative) {
   return (
     <Box>
-      {title && <Box sx={{ mb: 1 }}>{title}</Box>}
+      {title && <Box sx={{ fontWeight: "bold", mb: 1 }}>{title}</Box>}
       {content}
     </Box>
   );
