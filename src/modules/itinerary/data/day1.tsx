@@ -1,6 +1,7 @@
-import { images } from "@/common/constants/images";
-import Action from "../components/action";
 import { ItineraryDay } from "../types/itineraryProps";
+import Action from "../components/action";
+import Picture from "../components/picture";
+import { images, Image } from "@/common/constants/images";
 
 export const dayOne: ItineraryDay = {
   name: "Day 1",
@@ -10,9 +11,85 @@ export const dayOne: ItineraryDay = {
       time: "0600",
       name: "Narita International Airport",
       thumbnail: images.itinerary.naritaAirport,
-      // Breakfast
-      // Welcome Suica card
-      // settle train tix
+      activity: {
+        duration: "1 hour",
+        narratives: [
+          {
+            title:
+              "Narita or Haneda: Choosing the Perfect Airport for our Japan Adventure",
+            content:
+              "Choosing which airport to land in when travelling to Tokyo is an important decision. While Haneda airport may seem like the obvious choice due to its proximity to downtown Tokyo, there are other factors to consider.",
+          },
+          {
+            content:
+              "Cost was a crucial factor we took into consideration while deciding which airport to fly into. We looked out for any ongoing flight promotions to Narita or Haneda, and also factored in the transportation cost from the airport to Tokyo. We had several options, such as taking the express train, local train, bus, or taxi. Additionally, we considered whether buying a JR pass was worth it, as it covers train fares. However, we ultimately decided against buying the JR pass since we were heading in one direction from Tokyo and wouldn't be using the shinkansen, making the cost not justifiable.",
+          },
+          {
+            content:
+              "Time is of the essence, as we had a tight schedule to keep. We had to factor in the time of our flight's arrival and how long it would take us to clear customs, and make sure we had transportation available to take us to our hotel.",
+          },
+          {
+            content:
+              "In our case, we had our hearts set on landing in Haneda, but unfortunately, there weren't any flights available at the time of purchase. So, here we are, at Narita International Airport Terminal 1!",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.naritaAirportWithBro}
+                description="Narita Airport with Bro"
+              />
+            ),
+          },
+          {
+            title:
+              "Navigating Japan's Covid Policy: Our Fast-Track Arrival Experience",
+            content:
+              "To ensure a smooth arrival in Japan during the COVID-19 pandemic, we followed a few steps to fast-track our entry process. Firstly, we registered for a Visit Japan Web account and submitted the necessary documents for pre-verification prior to our trip. This helped us avoid potential delays upon arrival.",
+          },
+          {
+            content:
+              "Once we landed in Japan, we presented the blue Visit Japan Web completion screen at various checkpoints on our way to immigration.",
+          },
+          {
+            content: (
+              <Picture src={Image.vjwReview} description="Review Completed" />
+            ),
+          },
+          {
+            content:
+              "After showing our passport, disembarkation card, and completion screen to the immigration officer, we had our fingerprints and picture taken, and were able to quickly proceed to the luggage collection area.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.vjwImmigration}
+                description="Immigration QR Code"
+              />
+            ),
+          },
+          {
+            content:
+              "We completed the arrival process by registering our passport and QR code for customs declaration at a machine located near the baggage carousel area.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.vjwCustoms}
+                description="Customs Declaration QR Code"
+              />
+            ),
+          },
+          {
+            content:
+              "Thanks to the Visit Japan Web pre-registration, we were able to save a lot of time on verification and waiting. We highly recommend this step to anyone traveling to Japan during the pandemic. The only setback we encountered was a delay in baggage collection. Overall, the arrival process was a breeze, and we were able to start our adventure in Japan with ease.",
+          },
+          {
+            title: "Suica Card: The Convenient Way to Travel in Japan",
+            content:
+              "Using a Suica card for transportation in Japan is a hassle-free option. The card can be easily reloaded at convenience stores and ticket vending machines located in subway stations, which have user-friendly interfaces available in English. Additionally, most of the places we planned to visit supported the use of Suica, except for the shinkansen and the romance car. While there is also another card called Pasmo, we decided to go with Suica because of the irresistible penguin design. In fact, we found the Suica vending machine located right next to the Narita Express train ticket machines in this terminal.",
+          },
+        ],
+      },
     },
     {
       time: "0813",
@@ -20,8 +97,8 @@ export const dayOne: ItineraryDay = {
       thumbnail: images.itinerary.naritaExpress,
       activity: {
         duration: "1 hour 34 mins",
-        narratives: []
-      }
+        narratives: [],
+      },
     },
     {
       time: "1045",
@@ -39,7 +116,15 @@ export const dayOne: ItineraryDay = {
         url: "http://washington-hotels.jp/shinjuku/",
         narratives: [
           {
-            content: <Action thumbnail={images.itinerary.tripDotCom} thumbnailAlt="Trip.com" text="S$111/night" buttonLabel="Book" buttonUrl="https://sg.trip.com/hotels/tokyo-hotel-detail-994914/shinjuku-washington-hotels"/>
+            content: (
+              <Action
+                thumbnail={images.itinerary.tripDotCom}
+                thumbnailAlt="Trip.com"
+                text="S$111/night"
+                buttonLabel="Book"
+                buttonUrl="https://sg.trip.com/hotels/tokyo-hotel-detail-994914/shinjuku-washington-hotels"
+              />
+            ),
           },
           {
             content: "Goodnight",
@@ -145,6 +230,6 @@ export const dayOne: ItineraryDay = {
           },
         ],
       },
-    }
+    },
   ],
 };

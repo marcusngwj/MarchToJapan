@@ -120,5 +120,8 @@ export enum Image {
   takeshitaWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/TakeshitaWithBro.jpg?alt=media&token=2925442a-8313-4efb-942d-9b66fb157f3d",
   tenYenPancake = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/10YenPancake.jpg?alt=media&token=f7df72f4-ee2e-47eb-bfdb-edd12394f792",
   tokyoSkytreeWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/SkytreeWithBro.jpg?alt=media&token=c76abd90-e8ac-4a15-a7fb-2df257c3d98a",
+  vjwCustoms = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/VjwCustoms.png?alt=media&token=3d8e1e1b-42d1-42a1-af4f-c01d860e613f",
+  vjwImmigration = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/VjwImmigration.png?alt=media&token=16c61190-7566-401c-ab83-cd8dbf20f310",
+  vjwReview = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/VjwReview.png?alt=media&token=85304035-4c2a-4ec4-bcea-31371be52a4f",
   yoyogiParkTransparentToilet = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/YoyogiParkTransparentToilet.jpg?alt=media&token=7179e2a7-204e-4ea4-bad4-ab064c474ea7",
 }

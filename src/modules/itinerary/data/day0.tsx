@@ -1,10 +1,7 @@
-import { images } from "@/common/constants/images";
 import { ItineraryDay } from "../types/itineraryProps";
 import Flight from "../components/flight";
-
-import ImageComponent from "next/image";
-import Box from "@mui/material/Box";
-import { Image } from "@/common/constants/images";
+import Picture from "../components/picture";
+import { images, Image } from "@/common/constants/images";
 
 export const dayZero: ItineraryDay = {
   name: "Day 0",
@@ -130,27 +127,10 @@ export const dayZero: ItineraryDay = {
           },
           {
             content: (
-              <Box
-                sx={{
-                  height: "50vh",
-                  width: "100%",
-                  position: "relative",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <ImageComponent
-                  src={Image.planeToNaritaWithBro}
-                  alt="Plane from Singapore to Tokyo"
-                  fill
-                  style={{
-                    height: "100%",
-                    maxWidth: "100%",
-                    objectFit: "contain",
-                  }}
-                />
-              </Box>
+              <Picture
+                src={Image.planeToNaritaWithBro}
+                description="Plane from Singapore to Tokyo"
+              />
             ),
           },
         ],
