@@ -15,13 +15,57 @@ export const dayZero: ItineraryDay = {
         duration: "",
         narratives: [
           {
-            title: "Check-in",
             content:
-              "As we had learned that they open the counters three hours before the flight and close them 60 minutes before, we made sure to arrive at least 90 minutes early for our departure time. When we arrived at the airport, we scanned our printed boarding pass to obtain the luggage tag for check in. then we proceed to use the auto check in to push our luggage into the plan.",
+              "The long-awaited journey to Japan was finally happening! Despite the numerous obstacles and setbacks that had come our way, we were determined to make the most of this graduation trip that we had been eagerly planning for months. Our initial plans to travel in May 2020 had been cancelled due to the Covid-19 pandemic, forcing us to cancel all our bookings and put our dreams of exploring Japan on hold. However, after much persistence and patiently waiting for Covid-19 measures to dissipate, we finally managed to find a common time to take annual leave from work and embark on our much-anticipated adventure.",
+          },
+          {
+            title: "A Stress-free Check-in Experience",
+            content:
+              "Knowing that Scoot opens their counters three hours before the flight and closes them 60 minutes before, we made sure to arrive at least 90 minutes early for our departure time. Upon arrival at the airport, we headed straight to the Automated Check-in Kiosk to obtain our baggage tags for check-in. It had been a while since we last flew, and we had a funny moment where one of our Baggage Identification Tag was accidentally covered while attaching the main tag to the luggage. This tag contained important information about the owner and the main tag, which we could use to enquire with the airline in case our baggage went missing.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.baggageIdTag}
+                description="Baggage Identification Tag"
+              />
+            ),
+          },
+          {
+            content:
+              "After obtaining our baggage tags, we proceeded to the Automated Bag-Drop Machine to drop off our bags. We realized that we had not attached the bag tag to the side handle, which caused one of our bags to be undetected by the machine. We quickly rectified the situation by taking the tag off slowly and reattaching it to the side handle.",
+          },
+          {
+            title: "Quality Time with Family and Friends",
+            content:
+              "Having some extra time before our flight, we decided to take a leisurely stroll around the airport and soak up the delightful atmosphere of the Disney100 anniversary celebrations at the renowned Shiseido Forest Valley. As we walked through the Disney100 archway, we were captivated by the enchanting surroundings and couldn't resist taking some photos with the magnificent 4m-tall platinum statue of the legendary Mickey Mouse.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shiseidoForestValleyWithFamily}
+                description="Shiseido Forest Valley with family"
+              />
+            ),
+          },
+          {
+            content:
+              "When our friend who came to send us off arrived, we bid farewell to our family and headed to Pizzamaru for dinner. While munching on pizza, we caught up with each other's recent travels - she shared her trip to Taiwan while we talked about our upcoming plans for Japan.",
+          },
+          {
+            content:
+              "After dinner, we headed over to Sourbombe to satisfy our sweet tooth with some delicious dessert. We managed to video call another friend who unfortunately couldn't join us because she was getting ready for work. However, the background noise was quite loud, so we had difficulty hearing her. We tried to guess what she was saying and replied accordingly, which resulted in some hilarious moments where our responses didn't match her questions. Despite the communication challenges, we were grateful for the opportunity to catch up with her virtually. Before parting ways, we took a group photo and headed off to try out the Changi Jewel Lounge.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.sourbombeWithFriends}
+                description="Sourbombe with friends"
+              />
+            ),
           },
         ],
       },
-      // Dinner + luggage Check-in
     },
     {
       time: "2030",
