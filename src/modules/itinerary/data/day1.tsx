@@ -36,7 +36,7 @@ export const dayOne: ItineraryDay = {
             content: (
               <Picture
                 src={Image.naritaAirportWithBro}
-                description="Narita Airport with Bro"
+                description="Narita Airport with Brother"
               />
             ),
           },
@@ -97,7 +97,64 @@ export const dayOne: ItineraryDay = {
       thumbnail: images.itinerary.naritaExpress,
       activity: {
         duration: "1 hour 34 mins",
-        narratives: [],
+        narratives: [
+          {
+            content:
+              "As first-time buyers of the N'EX tickets, we embarked on a new challenge. Thankfully, the signs guiding us to the N'EX ticketing machine were clear, making it easy for us to find our way.",
+          },
+          {
+            content:
+              "The real challenge began when we realized we needed to purchase a Limited Express Train Ticket in addition to the basic fare ticket. To add to the complexity, we also wanted to secure reserved seats. Although the ticketing machines provided English translations, we still felt uncertain about the process.",
+          },
+          {
+            content:
+              "To overcome our uncertainty, we decided to match the overall price with what we had found during our online research, which was around ¥3,250. Hoping for the best, we proceeded with the purchase, unsure of what to expect.",
+          },
+          {
+            content:
+              "Surprisingly, instead of receiving two physical tickets per person, the machine dispensed only one ticket for each of us. However, upon closer inspection, we discovered that the tickets contained all the information we had requested, including our destination, selected seats and price.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.naritaExpressTicket}
+                description="Narita Express Train Ticket"
+              />
+            ),
+          },
+          {
+            content:
+              "With our tickets in hand, we made our way to the platform. Being early, we had the luxury of some spare time before our train's arrival. We took advantage of this opportunity to soak in the atmosphere, hanging around the platform and observing our surroundings.",
+          },
+          {
+            content:
+              "As the train pulled in, we boarded it, stowed our luggage in the overhead compartments, and settled into our seats. We took advantage of the time on the train to clear our game dailies and charge our phones using a portable charger, ensuring our phones stayed powered up for the adventures ahead.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.naritaExpressWithBro}
+                description="Onboard Narita Express Train with Brother"
+              />
+            ),
+          },
+          {
+            content:
+              "While gazing through the train's windows, we found that some of the landscapes resembled picturesque scenes straight out of an anime, capturing our imagination and filling us with awe.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.naritaExpressViewOutsideWindow}
+                description="Scenic view outside window"
+              />
+            ),
+          },
+          {
+            content:
+              "And for a moment of tranquility, we closed our eyes and allowed ourselves to drift into a peaceful slumber, recharging our bodies for the long and exhilarating day that lay ahead.",
+          },
+        ],
       },
     },
     {
