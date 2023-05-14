@@ -245,7 +245,61 @@ export const dayOne: ItineraryDay = {
         url: "https://www.gyukatsu-motomura.com/",
         narratives: [
           {
-            content: "Shiok! Must try! Long Queue",
+            content:
+              "Upon arriving at the restaurant, we were initially skeptical about it being a tourist trap, but were truly amazed by the experience that followed.",
+          },
+          {
+            content:
+              "The menu had three options, varying by the amount of beef cutlet served, with an option to upgrade the set to include a soft drink or alcohol. ",
+          },
+          {
+            content: (
+              <Picture src={Image.gyukatsuMotomuraMenu} description="Menu" />
+            ),
+          },
+          {
+            content:
+              "The waitress impressed us with her ability to speak Japanese, English and Korean.",
+          },
+          {
+            content:
+              "We were guided to the counter seats where we could see the kitchen in action, and each table had a personal stone grill and utensils for us to use. Roasted tea was also provided. Orders were taken during the queue, and our set came shortly after we settled down. We opted for the two cutlet set each without any drinks.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.gyukatsuMotomuraSetMeal}
+                description="2 Cutlet Set Meal"
+              />
+            ),
+          },
+          {
+            content:
+              "Initially, we were hugging our bags until the waitress came to tell us that there was a compartment beneath the table to place our belongings. In Singlish terms, we were very swaku.",
+          },
+          {
+            content:
+              "Grilling the beef cutlets was quite fun, and we could customize them to our preferred level of doneness since the duration of grilling was up to us.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.gyukatsuMotomuraSelfService}
+                description="Grilling Cutlet"
+              />
+            ),
+          },
+          {
+            content:
+              "We had no regrets and highly recommended the restaurant. The value for money was excellent, despite the small size of the place, steep stairs and the queue can extend from the basement entrance up to the street level, and the grill aroma sticks to clothes even after leaving. We are definitely coming back again in the future.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.gyukatsuMotomuraMealWithBro}
+                description="Wefie"
+              />
+            ),
           },
         ],
       },

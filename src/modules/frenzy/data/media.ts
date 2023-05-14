@@ -61,12 +61,26 @@ export const media: Graphic[] = [
     tags: [Tag.shinjukuHotel, Tag.brothers, Tag.image],
   },
   {
+    thumbnail: Image.gyukatsuMotomuraMenu,
+    src: Image.gyukatsuMotomuraMenu,
+    name: "Gyukatsu Motomura Harajuku Menu",
+    description: "",
+    tags: [Tag.gyukatsuMotomura, Tag.food, Tag.image],
+  },
+  {
     thumbnail: Image.gyukatsuMotomuraSetMeal,
     src: Image.gyukatsuMotomuraSetMeal,
     name: "2 Cutlet Set Meal at Gyukatsu Motomura Harajuku",
     description:
       "Craving some delicious Japanese cuisine? Look no further than Gyukatsu Motomura Harajuku! The crispy golden crust of the beef cutlet is simply divine, while the juicy tender meat inside melts in your mouth. One bite and we were in foodie heaven, with every subsequent bite setting the bar higher and higher for any other meal we'll have in Japan.",
     tags: [Tag.gyukatsuMotomura, Tag.food, Tag.image],
+  },
+  {
+    thumbnail: Image.gyukatsuMotomuraMealWithBro,
+    src: Image.gyukatsuMotomuraMealWithBro,
+    name: "2 Cutlet Set Meal Served",
+    description: "",
+    tags: [Tag.gyukatsuMotomura, Tag.food, Tag.brothers, Tag.image],
   },
   {
     thumbnail: Image.takeshitaWithBro,
