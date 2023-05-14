@@ -184,7 +184,46 @@ export const dayOne: ItineraryDay = {
             ),
           },
           {
-            content: "Goodnight",
+            title: "Hotel Review",
+            content:
+              "The room at the hotel was on the smaller side, with minimal walking space and limited room to open our luggage. However, despite the compact size, the service staff were incredibly friendly, approachable, and always willing to assist us. During check-in, the staff suggested that we join their membership program, which would entitle us to four complimentary bottles of mineral water. It was a thoughtful gesture that added value to our stay. Checking out was a breeze, thanks to the easy self-checkout process provided by the hotel. It made our departure hassle-free and convenient.",
+          },
+          {
+            content:
+              "While we were aware of an underpass walkway connecting the station to the hotel, we had difficulty locating it. Even when we managed to find it, the challenge arose when we returned to the hotel at night using different train lines and exits. Each time, it took us some time to navigate our way back to the underpass walkway and eventually find our way home.",
+          },
+          {
+            title: "Navigating Our Way to the Hotel",
+            content:
+              "After a long flight and train journey, we finally arrived at Shinjuku Station. As soon as we stepped off the train, we made a beeline for the restroom to relieve ourselves. Having not eaten anything since our meal at Changi Lounge, we were feeling famished, cold, and light-headed. To remedy the situation, we quickly grabbed a blueberry sandwich from a nearby shop inside the station.",
+          },
+          {
+            content:
+              "Using Google Maps, we tried to locate our hotel, but the locator kept jumping across streets, leading us to walk detours. It took us a while, but eventually, it stabilized and we managed to find our way.",
+          },
+          {
+            content:
+              "As we walked towards our hotel, we were delighted to notice that the sakura trees nearby were already in bloom. It was our first sight of cherry blossoms and we hoped to encounter more beautifully bloomed trees during our journey ahead.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.bunkaGakuenSakura}
+                description="Sakura Trees outside Bunka Gakuen University"
+              />
+            ),
+          },
+          {
+            content:
+              "As planned, we arrived at our hotel before the check-in time and left our luggage with the hotel personnel. They stored it in a designated storage area, and we headed off to have our first meal in Japan!",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shinjukuHotelWithBro}
+                description="At Shinjuku Washington Hotel with Brother"
+              />
+            ),
           },
         ],
       },

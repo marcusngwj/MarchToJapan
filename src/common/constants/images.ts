@@ -77,6 +77,7 @@ export enum Image {
   baggageIdTag = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/BaggageIdentificationTag.png?alt=media&token=1552c32d-f748-4c94-bc10-65b5d7956fcf",
   beefLasagne = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/BeefLasagne.jpg?alt=media&token=f80b9eb9-a7ff-48dd-be0e-6f8eb28357f3",
   boardingPass = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/BoardingPass.jpg?alt=media&token=3a848f8d-2e27-43e1-9077-c93cdac1a054",
+  bunkaGakuenSakura = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/BunkaGakuenSakura.jpg?alt=media&token=758b7eba-31b3-4539-ad68-f31509e17afe",
   chilliCrabWithMantou = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ChilliCrabMantou.jpg?alt=media&token=25e32103-46ba-4925-8e32-a37b922c1e57",
   dangoWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/DangoWithBro.jpg?alt=media&token=622a8aab-b83f-4f05-8341-a60e5381ca2a",
   dawnCafeWithGroup = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/DawnCafeWithGroup.jpg?alt=media&token=6202ebf0-fdf2-447e-bc97-e52e217cb134",
