@@ -246,7 +246,19 @@ export const dayOne: ItineraryDay = {
         narratives: [
           {
             content:
-              "Upon arriving at the restaurant, we were initially skeptical about it being a tourist trap, but were truly amazed by the experience that followed.",
+              "With countless positive comments circulating online about this restaurant, we couldn't help but approach it with a hint of skepticism. We wondered if the reviews were exaggerating the experience, creating unrealistic expectations and leading us into a typical tourist trap. However, our curiosity and desire to uncover the truth led us to give it a try.",
+          },
+          {
+            content:
+              "As we approached the restaurant, families and groups of people were already patiently waiting in the open, with a representative holding their spot in line. The sight of the long queue, stretching from the basement entrance to the street level, served as a clear testament to the restaurant's immense popularity.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.gyukatsuMotomuraEntranceWithBro}
+                description="Entrance of Gyukatsu Motomura With Brother"
+              />
+            ),
           },
           {
             content:
@@ -259,11 +271,11 @@ export const dayOne: ItineraryDay = {
           },
           {
             content:
-              "The waitress impressed us with her ability to speak Japanese, English and Korean.",
+              "While waiting in the queue, we had the pleasure of encountering a delightful waitress. We were impressed by her multilingual skills, as she effortlessly conversed in Japanese, English, and Korean. With a friendly demeanor, she patiently took our orders and even asked if we would like any drinks to accompany our meal. We requested black oolong tea and inquired about the availability of a warm version. With a polite smile, she regretfully informed us that only the cold version was available.",
           },
           {
             content:
-              "We were guided to the counter seats where we could see the kitchen in action, and each table had a personal stone grill and utensils for us to use. Roasted tea was also provided. Orders were taken during the queue, and our set came shortly after we settled down. We opted for the two cutlet set each without any drinks.",
+              "When our turn finally came, we were guided to the counter seats where we could see the kitchen in action. To our delight, each table was equipped with a personal stone grill, creating an interactive dining experience. Having placed our orders while waiting in the queue, our set meals arrived promptly after we settled down. We had opted for the two cutlet set each. As the restaurant served delicious roasted tea, we decided to save our bottles of oolong tea for later, appreciating the complementary beverage provided.",
           },
           {
             content: (
@@ -291,7 +303,7 @@ export const dayOne: ItineraryDay = {
           },
           {
             content:
-              "We had no regrets and highly recommended the restaurant. The value for money was excellent, despite the small size of the place, steep stairs and the queue can extend from the basement entrance up to the street level, and the grill aroma sticks to clothes even after leaving. We are definitely coming back again in the future.",
+              "We had no regrets and highly recommend to visit this restaurant. The value for money was excellent, despite the small size of the place. We are definitely coming back again in the future.",
           },
           {
             content: (

@@ -90,6 +90,7 @@ export enum Image {
   gotembaBusStopWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/GotembaBusStopWithBro.jpg?alt=media&token=18f52abc-0a7b-4a3f-be0e-eeab810ab971",
   gotembaCrepe = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/GotembaCrepe.jpg?alt=media&token=26cf8679-d8ff-4d7e-bea8-ba6a34273ad7",
   gotembaPikachu = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/GotembaPikachu.jpg?alt=media&token=e2b6696f-837a-48c3-a489-26a558e23a24",
+  gyukatsuMotomuraEntranceWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/GyukatsuMotomuraEntranceWithBro.jpg?alt=media&token=9b07f68c-4f33-4441-b20a-d7b7126c0e55",
   gyukatsuMotomuraMenu = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/GyukatsuMotomuraMenu.jpg?alt=media&token=623d3adc-440e-4734-9044-bb4757d4f14f",
   gyukatsuMotomuraMealWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/GyukatsuMotomuraMealWithBro.jpg?alt=media&token=9765477f-2cc8-484a-82d3-30b668e823cb",
   gyukatsuMotomuraSelfService = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/GyukatsuMotomuraSelfService.gif?alt=media&token=5fe8251e-81a5-4835-b0c7-b6ac00f8362e",

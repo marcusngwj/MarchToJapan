@@ -61,6 +61,13 @@ export const media: Graphic[] = [
     tags: [Tag.shinjukuHotel, Tag.brothers, Tag.image],
   },
   {
+    thumbnail: Image.gyukatsuMotomuraEntranceWithBro,
+    src: Image.gyukatsuMotomuraEntranceWithBro,
+    name: "Gyukatsu Motomura Harajuku Entrance",
+    description: "",
+    tags: [Tag.gyukatsuMotomura, Tag.brothers, Tag.image],
+  },
+  {
     thumbnail: Image.gyukatsuMotomuraMenu,
     src: Image.gyukatsuMotomuraMenu,
     name: "Gyukatsu Motomura Harajuku Menu",
