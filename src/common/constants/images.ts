@@ -127,6 +127,8 @@ export enum Image {
   shinkansenWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShinkansenWithBro.jpg?alt=media&token=b10918c4-cafd-42fc-b801-c4c1e1daba2b",
   shiseidoForestValleyWithFamily = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShiseidoForestValleyWithFamily.jpg?alt=media&token=cfd5b807-d910-4d87-abf1-546fc46eb00f",
   sourbombeWithFriends = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/SourbombeWithFriends.jpg?alt=media&token=bd09df90-0706-4390-ba65-a5504edbfd07",
+  takeshitaCapsuleShopEntrance = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/TakeshitaCapsuleShopEntrance.jpg?alt=media&token=a9aa956d-6e20-4b54-96da-2714ca6f9dc2",
+  takeshitaCrepeMenu = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/TakeshitaCrepeMenu.jpg?alt=media&token=577afd79-b1cb-4090-ad4d-130f36ced318",
   takeshitaWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/TakeshitaWithBro.jpg?alt=media&token=2925442a-8313-4efb-942d-9b66fb157f3d",
   tenYenPancake = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/10YenPancake.jpg?alt=media&token=f7df72f4-ee2e-47eb-bfdb-edd12394f792",
   tokyoSkytreeWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/SkytreeWithBro.jpg?alt=media&token=c76abd90-e8ac-4a15-a7fb-2df257c3d98a",

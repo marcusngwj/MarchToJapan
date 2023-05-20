@@ -36,7 +36,7 @@ export const dayOne: ItineraryDay = {
             content: (
               <Picture
                 src={Image.naritaAirportWithBro}
-                description="Narita Airport with Brother"
+                description="Narita Airport with brother"
               />
             ),
           },
@@ -134,7 +134,7 @@ export const dayOne: ItineraryDay = {
             content: (
               <Picture
                 src={Image.naritaExpressWithBro}
-                description="Onboard Narita Express Train with Brother"
+                description="Onboard Narita Express Train with brother"
               />
             ),
           },
@@ -169,7 +169,7 @@ export const dayOne: ItineraryDay = {
           map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.597112877247!2d139.69113091511832!3d35.68692108019289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd3045b98f3%3A0x5f5f6283b8da0b62!2sShinjuku%20Washington%20Hotel!5e0!3m2!1sen!2ssg!4v1678787081907!5m2!1sen!2ssg",
         },
         duration: "4 nights",
-        rating: 4,
+        rating: 3.5,
         url: "http://washington-hotels.jp/shinjuku/",
         narratives: [
           {
@@ -221,7 +221,7 @@ export const dayOne: ItineraryDay = {
             content: (
               <Picture
                 src={Image.shinjukuHotelWithBro}
-                description="At Shinjuku Washington Hotel with Brother"
+                description="At Shinjuku Washington Hotel with brother"
               />
             ),
           },
@@ -256,7 +256,7 @@ export const dayOne: ItineraryDay = {
             content: (
               <Picture
                 src={Image.gyukatsuMotomuraEntranceWithBro}
-                description="Entrance of Gyukatsu Motomura With Brother"
+                description="Entrance of Gyukatsu Motomura With brother"
               />
             ),
           },
@@ -320,6 +320,51 @@ export const dayOne: ItineraryDay = {
       time: "1315",
       name: "Takeshita Street",
       thumbnail: images.itinerary.takeshitaStreet,
+      activity: {
+        duration: "30 mins",
+        narratives: [
+          {
+            content:
+              "After indulging in a satisfying meal at Gyukatsu Motomura, we decided to explore the vibrant Takeshita Street nearby. This lively street in Harajuku is famous for its quirky shops, bursting with colorful and unconventional clothing and accessories. It's a haven for those with a sweet tooth, as it offers a plethora of crepe stores.",
+          },
+          {
+            content:
+              "As soon as we set foot on Takeshita Street, we couldn't miss the numerous crepe shops lining the way. However, each one had an incredibly long queue of eager customers. With our tight schedule in mind, we reluctantly decided to forgo the crepes this time.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.takeshitaCrepeMenu}
+                description="Menu of one of the Crepe Shops in Takeshita Street"
+              />
+            ),
+          },
+          {
+            content:
+              "Aside from the crepe shops, we also noticed a few gachapon stores along the street. Curiosity piqued, we stepped into one to take a look. However, most of the items inside didn't catch our interest. We had anticipated more anime-related goodies in the capsules, but it turned out that many of them were animal figurines and other collector's items that didn't resonate with us. So, we decided it wouldn't bring us much joy to try our luck with them.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.takeshitaCapsuleShopEntrance}
+                description="Entrance of capsule toy shop"
+              />
+            ),
+          },
+          {
+            content:
+              "The street was bustling with crowds, and truth be told, many of the shops and food options didn't capture our attention. We didn't linger for too long, simply passing through to check off this item from our itinerary. Our main goal was to witness and experience Takeshita Street at least once, even if it didn't hold much allure for us personally.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.takeshitaWithBro}
+                description="Takeshita Street main gate with brother"
+              />
+            ),
+          },
+        ],
+      },
     },
     {
       time: "1400",
