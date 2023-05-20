@@ -303,7 +303,7 @@ export const dayOne: ItineraryDay = {
           },
           {
             content:
-              "We had no regrets and highly recommend to visit this restaurant. The value for money was excellent, despite the small size of the place. We are definitely coming back again in the future.",
+              "We had no regrets and highly recommend to visit this restaurant. The value for money surpassed our expectations, despite the cozy size of the establishment. We were so impressed that we vowed to return in the future. Little did we know, this first meal in Japan had set the bar incredibly high for all the meals to come.",
           },
           {
             content: (
