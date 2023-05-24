@@ -108,7 +108,7 @@ export enum Image {
   meguroRiverFigLeafPose = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeguroRiverFigLeafPose.jpg?alt=media&token=6c1afb2e-2d71-4190-8f05-82f9e6e36d2c",
   meguroRiverPocketPose = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeguroRiverPocketPose.jpg?alt=media&token=373a7693-ae4d-4a0d-b609-5f61336e7335",
   meijiShrineBarrels = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineBarrels.gif?alt=media&token=45487e02-0d1f-465b-a2a8-76dd0cee7f99",
-  meijieShrineEma = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineEma.gif?alt=media&token=865398ac-54cd-42b2-a57f-5b954e54d35d",
+  meijiShrineEma = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineEma.gif?alt=media&token=865398ac-54cd-42b2-a57f-5b954e54d35d",
   meijiShrineWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineWithBro.jpg?alt=media&token=35324995-b42a-4b13-8d31-bac0b0022138",
   meijiShrineWish = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineWish.jpg?alt=media&token=8ee0c85e-e3a4-470e-8d80-68f4a4795e62",
   meijiShrineWithPikachu = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineWithPikachu.jpg?alt=media&token=4e634406-ffeb-42e4-a8ef-4158503525f9",

@@ -425,7 +425,7 @@ export const dayOne: ItineraryDay = {
               "After about a 10-minute walk, we reached the main buildings of Meiji Shrine. We made offerings and offered our prayers, following the customs of Shinto worshippers. Many visitors wrote their prayers or wishes on Ema, small wooden plaques, which are left hanging at the shrine for the spirits or gods to receive.",
           },
           {
-            content: <Picture src={Image.meijieShrineEma} description="Ema" />,
+            content: <Picture src={Image.meijiShrineEma} description="Ema" />,
           },
           {
             content:
