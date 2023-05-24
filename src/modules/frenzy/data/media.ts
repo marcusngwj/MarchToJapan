@@ -98,6 +98,13 @@ export const media: Graphic[] = [
     tags: [Tag.takeshita, Tag.brothers, Tag.image],
   },
   {
+    thumbnail: Image.meijiShrineWithPikachu,
+    src: Image.meijiShrineWithPikachu,
+    name: "Meiji Shrine with Pikachi",
+    description: "",
+    tags: [Tag.meijiShrine, Tag.pikachu, Tag.pokemon, Tag.image],
+  },
+  {
     thumbnail: Image.meijiShrineWithBro,
     src: Image.meijiShrineWithBro,
     name: "Meiji Shrine",

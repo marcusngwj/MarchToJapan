@@ -381,7 +381,67 @@ export const dayOne: ItineraryDay = {
         url: "https://www.meijijingu.or.jp/",
         narratives: [
           {
-            content: "Nice place",
+            content:
+              "During the planning of our trip, due to our tight schedule, we had to choose only one shrine to visit, and we settled on Meiji Shrine. Initially, after passing through Takeshita Street, we intended to head towards Yoyogi Park, but somehow ended up walking towards Meiji Shrine instead.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.meijiShrineWithPikachu}
+                description="Meiji Shrine Torii with brother"
+              />
+            ),
+          },
+          {
+            content:
+              "Honoring the legacy of Emperor Meiji and Empress Shōken, whose influential roles shaped Japan's development, this iconic landmark stands as a symbolic tribute, serving as a cherished reminder of their historical significance.",
+          },
+          {
+            content:
+              "As we approached the shrine, we noticed that the area is nestled within a peaceful forest. Despite the vibrant and bustling atmosphere outside, the surroundings were surprisingly serene and green. We walked along the side as we passed through the torii gate, understanding that the center space is reserved for the gods to pass through.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.meijiShrineWithBro}
+                description="Meiji Shrine Torii with brother"
+              />
+            ),
+          },
+          {
+            content:
+              "During our walk, we encountered a display of sake and wine barrels along the approach. There were more than 200 traditional sake barrels donated to the shrine by famous breweries across the country as a sacred offering to Emperor Meiji.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.meijiShrineBarrels}
+                description="Sake barrels"
+              />
+            ),
+          },
+          {
+            content:
+              "After about a 10-minute walk, we reached the main buildings of Meiji Shrine. We made offerings and offered our prayers, following the customs of Shinto worshippers. Many visitors wrote their prayers or wishes on Ema, small wooden plaques, which are left hanging at the shrine for the spirits or gods to receive.",
+          },
+          {
+            content: <Picture src={Image.meijieShrineEma} description="Ema" />,
+          },
+          {
+            content:
+              "Another common practice is to write wishes on a piece of paper and place it in an envelope along with some money as a token offering. These written wishes and prayers are then placed before the shrine's altar during a ritual ceremony.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.meijiShrineWish}
+                description="Wish Offering"
+              />
+            ),
+          },
+          {
+            content:
+              "Before leaving the shrine, we came across a shop selling charms. There was a wide variety of charms available at different prices. These intricately crafted charms held diverse blessings, ranging from health and wealth to happiness and more. We paused for a while, contemplating whether it would be appropriate to buy them as thoughtful gifts for our loved ones. After careful consideration, we chose to forgo the opportunity, as we wanted to avoid any potential clash in religious beliefs.",
           },
         ],
       },
