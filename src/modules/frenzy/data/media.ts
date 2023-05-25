@@ -121,12 +121,33 @@ export const media: Graphic[] = [
     tags: [Tag.meijiShrine, Tag.image],
   },
   {
+    thumbnail: Image.yoyogiParkBlossomWithBro,
+    src: Image.yoyogiParkBlossomWithBro,
+    name: "Yoyogi Park Cherry Blossoms Zoomed in",
+    description: "",
+    tags: [Tag.yoyogiPark, Tag.park, Tag.brothers, Tag.image],
+  },
+  {
+    thumbnail: Image.yoyogiParkWithBro,
+    src: Image.yoyogiParkWithBro,
+    name: "Yoyogi Park Cherry Blossoms",
+    description: "",
+    tags: [Tag.yoyogiPark, Tag.park, Tag.brothers, Tag.image],
+  },
+  {
     thumbnail: Image.yoyogiParkTransparentToilet,
     src: Image.yoyogiParkTransparentToilet,
     name: "Transparent Toilet at Yoyogi Park",
     description:
       "Checking out the innovative transparent toilet in Yoyogi Park! While the concept of a see-through restroom may seem strange at first, we were fascinated by the unique design and the potential for increased safety and cleanliness. There's a sign that explains it's currently in a non-transparent state, but you can still use it as usual.",
     tags: [Tag.yoyogiPark, Tag.image],
+  },
+  {
+    thumbnail: Image.meijiShrineVicinityWithBro,
+    src: Image.meijiShrineVicinityWithBro,
+    name: "Meiji Shrine Vicinity",
+    description: "",
+    tags: [Tag.park, Tag.brothers, Tag.image],
   },
   {
     thumbnail: Image.shibuyaSkyNightCityscape,

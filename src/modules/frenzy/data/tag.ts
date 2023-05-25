@@ -36,6 +36,7 @@ export enum Tag {
   onePiece = "onepiece",
   onPlane = "onplane",
   pankcake = "pancake",
+  park = "park",
   pikachu = "pikachu",
   pokemon = "pokemon",
   quintessentialQuintuplets = "thequintessentialquintuplets",

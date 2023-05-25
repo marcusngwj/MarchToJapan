@@ -109,6 +109,7 @@ export enum Image {
   meguroRiverPocketPose = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeguroRiverPocketPose.jpg?alt=media&token=373a7693-ae4d-4a0d-b609-5f61336e7335",
   meijiShrineBarrels = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineBarrels.gif?alt=media&token=45487e02-0d1f-465b-a2a8-76dd0cee7f99",
   meijiShrineEma = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineEma.gif?alt=media&token=865398ac-54cd-42b2-a57f-5b954e54d35d",
+  meijiShrineVicinityWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineVicinityWithBro.jpg?alt=media&token=4e2b379b-c964-40bb-9100-b2269c6902c2",
   meijiShrineWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineWithBro.jpg?alt=media&token=35324995-b42a-4b13-8d31-bac0b0022138",
   meijiShrineWish = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineWish.jpg?alt=media&token=8ee0c85e-e3a4-470e-8d80-68f4a4795e62",
   meijiShrineWithPikachu = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/MeijiShrineWithPikachu.jpg?alt=media&token=4e634406-ffeb-42e4-a8ef-4158503525f9",
@@ -138,5 +139,7 @@ export enum Image {
   vjwCustoms = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/VjwCustoms.png?alt=media&token=3d8e1e1b-42d1-42a1-af4f-c01d860e613f",
   vjwImmigration = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/VjwImmigration.png?alt=media&token=16c61190-7566-401c-ab83-cd8dbf20f310",
   vjwReview = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/VjwReview.png?alt=media&token=85304035-4c2a-4ec4-bcea-31371be52a4f",
+  yoyogiParkBlossomWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/YoyogiParkBlossomWithBro.jpg?alt=media&token=00969e64-9181-4d88-a167-1115abb31a75",
   yoyogiParkTransparentToilet = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/YoyogiParkTransparentToilet.jpg?alt=media&token=7179e2a7-204e-4ea4-bad4-ab064c474ea7",
+  yoyogiParkWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/YoyogiParkWithBro.jpg?alt=media&token=8726a42b-c8ba-4930-ba31-c6fbcec6590b",
 }

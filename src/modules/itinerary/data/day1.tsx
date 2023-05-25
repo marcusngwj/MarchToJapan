@@ -452,7 +452,56 @@ export const dayOne: ItineraryDay = {
       thumbnail: images.itinerary.yoyogiPark,
       activity: {
         duration: "1 hour",
-        narratives: [],
+        narratives: [
+          {
+            content:
+              "After our visit to Meiji Shrine, we just turned the corner and found ourselves at Yoyogi Park. Initially, we hadn't planned to catch cherry blossoms here; our main intention was to visit the transparent toilet installation that we had heard about.",
+          },
+          {
+            content:
+              "To our surprise, the park was adorned with blooming sakura trees. As we walked further in, we came across a beautiful stretch of road lined with cherry blossoms on both sides. The park was buzzing with activity, as many people had come prepared with picnic mats and food. Locals and tourists alike gathered here, enjoying the festive atmosphere. We even spotted a group of students sitting on a large mat, eating and playing games. It was the perfect opportunity to capture our first official photo with the sakura trees.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.yoyogiParkWithBro}
+                description="Cherry Blossoms in Yoyogi Park"
+              />
+            ),
+          },
+          {
+            content:
+              "Although we had brought a picnic mat with us, originally intended for Ueno Park, we didn't expect that it could be used here. Unfortunately, we had left it back at the hotel, and with our tight schedule, we couldn't stay long. We had to make our way to Shibuya Sky to catch the sunset.",
+          },
+          {
+            content:
+              "We continued our quest to find the transparent toilet, which was said to be somewhere in the park. We had been fascinated by this unique installation while researching it online. Designed by the renowned architect Shigeru Ban, the glass walls of the toilet cubicles turned opaque when locked. This toilet was part of the Tokyo Toilet Project, an initiative by The Nippon Foundation and leading creators to renovate public toilets in Shibuya.",
+          },
+          {
+            content:
+              "However, we soon realized that finding the toilet wasn't as straightforward as we had hoped. It turned out to be quite out of the way, and when we finally reached it, we were disappointed to discover a notice stating that the toilet was currently in an opaque state at all times. Despite the letdown, we decided to use the toilet and take a look inside. It was relatively clean and modern, considering it was a public toilet in the middle of a park. There was even a touch of an infinity mirror, which added to the interesting experience. Overall, though, it didn't quite live up to our initial excitement.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.yoyogiParkTransparentToilet}
+                description="Transparent Toilet"
+              />
+            ),
+          },
+          {
+            content:
+              "After using the toilet, we tried to make our way back to the train station to continue our journey to Shibuya Sky. Unfortunately, our reliance on Google Maps led us in a big roundabout detour, and we ended up back at Meiji Shrine once again. We couldn't help but wonder if it was a result of not purchasing the good luck charm from the shrine's shop earlier. Along the way, we stumbled upon a lovely open field and decided to take some photos with the sun in the background before finally heading in the correct direction towards the train station.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.meijiShrineVicinityWithBro}
+                description="Park in the vicinity of Meiji Shrine with brother"
+              />
+            ),
+          },
+        ],
       },
     },
     {
