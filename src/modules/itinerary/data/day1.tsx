@@ -455,7 +455,7 @@ export const dayOne: ItineraryDay = {
         narratives: [
           {
             content:
-              "After our visit to Meiji Shrine, we just turned the corner and found ourselves at Yoyogi Park. Initially, we hadn't planned to catch cherry blossoms here; our main intention was to visit the transparent toilet installation that we had heard about.",
+              "After our visit to Meiji Shrine, we just turned the corner and found ourselves at Yoyogi Park. Initially, we hadn't planned to catch cherry blossoms here. Our main intention was to visit the transparent toilet installation that we had heard about.",
           },
           {
             content:
@@ -465,7 +465,7 @@ export const dayOne: ItineraryDay = {
             content: (
               <Picture
                 src={Image.yoyogiParkWithBro}
-                description="Cherry Blossoms in Yoyogi Park"
+                description="Cherry Blossoms in Yoyogi Park with brother"
               />
             ),
           },
