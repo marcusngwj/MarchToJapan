@@ -719,7 +719,60 @@ export const dayOne: ItineraryDay = {
         url: "http://www.hobo-shinjuku.com/",
         narratives: [
           {
-            content: "Hungry!",
+            content:
+              "Hobo Shinjuku Norengai, the area's latest izakaya complex, recently transformed an old warehouse into a new addition, turning it into a yokocho food alley with seven new restaurants. We were thrilled to explore this new addition to Tokyo since the pandemic, as it provided an opportunity to try out an izakaya experience.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.hoboShinjukuNorengaiWithBro}
+                description="Hobo Shinjuku Norengai with brother"
+              />
+            ),
+          },
+          {
+            content:
+              "As we walked around the complex, we couldn't find any English menus. After entering and exiting a few times, we realized that there might not be any other options and decided to settle for a shop called Newstar. As expected, the menu was entirely in Japanese.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.hoboShinjukuNorengaiMenu}
+                description="Newstar Menu"
+              />
+            ),
+          },
+          {
+            content:
+              "Since our command of the Japanese language was limited, perusing the menu would be a time-consuming task, especially if we had to rely on Google Translate for each item. The staff informed us that we could use LINE to view the menu with images, but we didn't have the app installed. Thankfully, the kind staff offered to show us the menu on his own phone via LINE. Surprisingly, he recommended the Siew Mai to us, which caught us off guard as it wasn't a Japanese dish. The app seemed to have fewer options than the physical paper menu. In the end, we played it safe and ordered Neapolitan spaghetti and fried rice. We also decided to have a mega oolong tea each since neither of us drinks alcohol.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.hoboShinjukuNorengaiFood}
+                description="Food we ordered at Newstar"
+              />
+            ),
+          },
+          {
+            content:
+              "When it was time to pay the bill, the staff accidentally gave us the wrong bill but quickly rectified the mistake and presented us with the correct one. Initially, we were confused as to why we were charged for two appetizers, but we decided to go ahead and pay for it.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.hoboShinjukuNorengaiReceipt}
+                description="Newstar Receipt"
+              />
+            ),
+          },
+          {
+            content:
+              "Overall, we realized that we couldn't fully appreciate such eateries until we improved our understanding of the Japanese language and became familiar with the names of different food. For the remainder of our trip, we tried to avoid restaurants that only had Japanese menus and always opted for places with English menus.",
+          },
+          {
+            content:
+              "Since we still felt a bit hungry, on our way back to the hotel, we stopped by a 7-11 and bought a small curry bread for only 160 yen. It was delicious, especially when it was still hot.",
           },
         ],
       },

@@ -21,6 +21,7 @@ export enum Tag {
   hachiko = "hachiko",
   haileyCafe = "hailey5cafe",
   hakoneShrine = "hakoneshrine",
+  hoboShinjukuNorengai = "hoboShinjukuNorengai",
   iwatayamaMonkeyPark = "iwatayamamonkeypark",
   kotagase = "kotagaseteahouse",
   kyotoMangaMuseum = "kyotointernationalmangamuseum",
