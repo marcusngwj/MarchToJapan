@@ -505,7 +505,7 @@ export const dayOne: ItineraryDay = {
       },
     },
     {
-      time: "1640",
+      time: "1630",
       name: "Shibuya Sky",
       thumbnail: images.itinerary.shibuyaSky,
       activity: {
@@ -516,12 +516,189 @@ export const dayOne: ItineraryDay = {
             "〒150-6145 東京都渋谷区渋谷2丁目24-12, Shibuya Scramble Square",
           map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7527128133547!2d139.70007341511757!3d35.658463780199654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b6825f61ae1%3A0x6ff47ee61e522473!2sShibuya%20Sky!5e0!3m2!1sen!2ssg!4v1678786437815!5m2!1sen!2ssg",
         },
-        duration: "1 hour 30 mins",
+        duration: "2 hours",
         rating: 5,
         url: "https://www.shibuya-scramble-square.com/sky/",
         narratives: [
           {
-            content: "Comfortable place",
+            content:
+              "Shibuya Sky was the highlight of our day, offering us a stunning experience from day to night. We specifically chose this timing to capture the golden hour and witness the transition from daytime to sunset, followed by the illuminated Tokyo skyline.",
+          },
+          {
+            content:
+              "To save some money, we purchased our tickets online as advised on their website. We opted to use Klook and took advantage of our UOB Absolute Cashback Card to earn a 1.7% cashback.",
+          },
+          {
+            content:
+              "Finding our way to Shibuya Scramble Square took a bit of effort due to ongoing construction blocking our view, but we managed to make it on time. There was a short queue for the lift that would take us to the entrance of Shibuya Sky on the 14th floor, but the wait wasn't too long.",
+          },
+          {
+            content:
+              "Since we had digital copies of our tickets, we could immediately join the elevator queue to reach the 45th floor. As the doors closed, a captivating presentation played on the ceiling, taking us on a virtual journey through space and time.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyElevatorDisplay}
+                description="Shibuya Sky Elevator Display"
+              />
+            ),
+          },
+          {
+            content:
+              "After exiting the elevator, we headed to the locker room to store our belongings. We had a moment of uncertainty about whether we should also store our waist pouches and small sling bags containing our valuables. After some contemplation, we decided to trust the integrity of the lockers and stored everything, fortunately having a 100 yen coin handy for the purpose.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyPathToLocker}
+                description="Towards Shibuya Sky Locker Room"
+              />
+            ),
+          },
+          {
+            content:
+              "Once we left the locker room, we reached the outside area where a popular photo spot awaited us. However, seeing the long line of eager visitors, we decided to bide our time and soak in the beauty of the surroundings instead. Eventually, though, with a tinge of sadness, we had to give it a miss and move on to the next level.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyEscalatorWithBro}
+                description="Shibuya Sky Escalator with brother"
+              />
+            ),
+          },
+          {
+            content:
+              "In this wide-open space, we were greeted with an unobstructed view of the sky, as there's no roof overhead to limit our vision. The entire area boasts 360-degree fully transparent glass, allowing you to immerse yourself in the breathtaking scenery. With the wind sweeping through and the weather cooperating beautifully, the view from here was simply spectacular.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyRoof}
+                description="Shibuya Sky Elevator Display"
+              />
+            ),
+          },
+          {
+            content:
+              "The top of Shibuya Sky provided a breathtaking view, complete with a spacious helipad. It was the perfect place to take a break and soak in the scenic view and pleasant weather. Although the hammock area was fully occupied, we didn't let that dampen our spirits.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyHelipad}
+                description="Shibuya Sky Helipad"
+              />
+            ),
+          },
+          {
+            content:
+              "After a leisurely walk around, we made our way to the main highlight of our visit—the renowned and heavily promoted Shibuya Edge. To our dismay, a substantial queue stretched out before us. As we approached the end of the line, a staff member stood there, holding a sign displaying estimated waiting times in multiple languages, revealing that we could expect to wait for approximately an hour. Furthermore, we learned that each group would only have 30 seconds to capture their desired photos once their turn arrived. Without hesitation, we wholeheartedly agreed to the terms and eagerly joined the queue, knowing that the experience would be worth the wait.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyQueueWithBro}
+                description="Queueing for Shibuya Sky Edge with brother"
+              />
+            ),
+          },
+          {
+            content:
+              "As we waited, we noticed the sun beginning to set, causing a bit of concern that we might miss the opportunity to take daytime photos. As we got closer, we saw others in the queue taking photos near the edge. Although it wasn't the iconic corner photo with the vast landscape in the background, we still managed to capture some good shots.",
+          },
+          {
+            content: (
+              <div>
+                <Picture
+                  src={Image.shibuyaSkyQueueBernard}
+                  description="Photo of Bernard while queueing for Shibuya Sky Edge"
+                />
+                <Picture
+                  src={Image.shibuyaSkyQueueMarcus}
+                  description="Photo of Marcus while queueing for Shibuya Sky Edge"
+                />
+              </div>
+            ),
+          },
+          {
+            content:
+              "As we inched closer to our turn, we quickly planned our poses, fully aware of the fleeting 30-second time limit. We agreed to adopt a relaxed posture with our arms resting against the ledge.",
+          },
+          {
+            content:
+              "Due to the prevailing Covid regulations, seeking assistance from strangers to take photos was not permitted. Instead, the staff on site would capture official photos with their own camera, which could be purchased afterwards. However, these staff members were not permitted to handle our personal phones or devices.",
+          },
+          {
+            content:
+              "Nevertheless, as we observed those ahead of us, we noticed a heartwarming trend emerging. Many visitors were forming instant connections and forging new 'friendships'. Recognizing this clever workaround within the regulations, we decided to embrace the spirit of this trend. Just in front of us stood a young Taiwanese woman, patiently awaiting her boyfriend's arrival. Recognizing an opportunity, we kindly offered our assistance, and to our delight, they graciously returned the favour.",
+          },
+          {
+            content:
+              "Finally, it was our moment. Fortunately, the sky hadn't turned completely dark yet. We quickly got into position, but being somewhat awkward with photos, our agreed-upon relaxed position somehow turned into a playful punch. Surprisingly, it turned out to be a great photo with a plane flying by in the background.",
+          },
+          {
+            content: (
+              <div>
+                <Picture
+                  src={Image.shibuyaSkyEdgeRestWithBro}
+                  description="Resting Photo of us at Shibuya Sky Edge"
+                />
+                <Picture
+                  src={Image.shibuyaSkyEdgeFistWithBro}
+                  description="Brofist at Shibuya Sky Edge"
+                />
+              </div>
+            ),
+          },
+          {
+            content:
+              "By this time, the sun had almost set, and the temperature had dropped, making us shiver. Despite the chill in the air, our spirits remained high, and we energetically explored every corner of the elevated vantage point in search of new photo opportunities. The freezing conditions failed to dampen our enthusiasm as we braved the cold, determined to capture as many memorable moments as possible before the day's end.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyCompassWithBro}
+                description="Shibuya Sky Compass"
+              />
+            ),
+          },
+          {
+            content:
+              "Once we had our fill of the cold, we descended and returned indoors. Just as we reached the lower level, the sun had fully set, revealing a beautiful dark sky. Through the glass, we could still enjoy the stunning Tokyo skyline.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyNightCityscape}
+                description="Tokyo Night Cityscape"
+              />
+            ),
+          },
+          {
+            content:
+              "Perched at such a height, we were granted an awe-inspiring view that encompassed the renowned Shibuya Crossing. As we gazed down upon the bustling intersection, the people below appeared as minuscule specks in the grand tapestry of the city. The perspective from above offered a unique and mesmerizing viewpoint, allowing us to marvel at the orchestrated chaos of the crossing that seemed to defy the constraints of time and space.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyCrossing}
+                description="Shibuya Crossing"
+              />
+            ),
+          },
+          {
+            content:
+              "After spending a considerable amount of time at Shibuya Sky, hunger started to set in. Considering the late hour, we decided it was time to head to our first dinner location.",
+          },
+          {
+            content: (
+              <Picture
+                src={Image.shibuyaSkyIndoorWithBro}
+                description="Shibuya Night Skyline in the background"
+              />
+            ),
           },
         ],
       },
