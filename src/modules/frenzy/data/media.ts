@@ -199,6 +199,13 @@ export const media: Graphic[] = [
     tags: [Tag.shibuyaSky, Tag.brothers, Tag.image],
   },
   {
+    thumbnail: Image.shibuyaSkyCompass,
+    src: Image.shibuyaSkyCompass,
+    name: "Standing on Shibuya Sky Compass",
+    description: "",
+    tags: [Tag.shibuyaSky, Tag.image],
+  },
+  {
     thumbnail: Image.shibuyaSkyCompassWithBro,
     src: Image.shibuyaSkyCompassWithBro,
     name: "Shibuya Sky Compass",
@@ -260,7 +267,7 @@ export const media: Graphic[] = [
     src: Image.pikachuMaskWithBro,
     name: "Pikachu Mask",
     description: "",
-    tags: [Tag.brothers, Tag.image],
+    tags: [Tag.pikachu, Tag.brothers, Tag.image],
   },
   {
     thumbnail: Image.meguroRiverFigLeafPose,

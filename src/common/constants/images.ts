@@ -133,6 +133,7 @@ export enum Image {
   shibuyaHachikoWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShibuyaHachikoWithBro.jpg?alt=media&token=e0c479a6-77d3-40e0-98b8-43d2dbed4e0f",
   shibuyaParcoMeasureHeight = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShibuyaParcoMeasureHeight.jpg?alt=media&token=d16d884e-20e1-4901-8277-b7926256fdef",
   shibuyaParcoWithMewtwo = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShibuyaParcoWithMewtwo.jpg?alt=media&token=e1244d18-98cf-41fb-b588-676fbc1e59a8",
+  shibuyaSkyCompass = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShibuyaSkyCompass.jpg?alt=media&token=d001f0af-d781-4ae1-8e0d-c7a10d046e91",
   shibuyaSkyCompassWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShibuyaSkyCompassWithBro.jpg?alt=media&token=38f2c112-afb6-4c28-913c-3ca0e38a7e63",
   shibuyaSkyCrossing = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShibuyaSkyCrossing.gif?alt=media&token=464cd435-5a03-4958-a73c-85d8a85e9e31",
   shibuyaSkyEdgeRestWithBro = "https://firebasestorage.googleapis.com/v0/b/marchtojapan.appspot.com/o/ShibuyaSkyEdgeRestWithBro.jpg?alt=media&token=b194170d-2a2f-4f86-978e-b0c9aaa104a0",
