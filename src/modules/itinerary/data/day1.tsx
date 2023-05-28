@@ -96,7 +96,7 @@ export const dayOne: ItineraryDay = {
       name: "Narita Express Train",
       thumbnail: images.itinerary.naritaExpress,
       activity: {
-        duration: "1 hour 34 mins",
+        duration: "1 hour 15 mins",
         narratives: [
           {
             content:
@@ -158,7 +158,7 @@ export const dayOne: ItineraryDay = {
       },
     },
     {
-      time: "1045",
+      time: "1030",
       name: "Shinjuku Washington Hotel",
       thumbnail: images.itinerary.shinjukuWashingtonHotel,
       activity: {

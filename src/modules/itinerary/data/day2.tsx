@@ -17,6 +17,15 @@ export const dayTwo: ItineraryDay = {
     },
     {
       time: "1100",
+      name: "Hachiko Square",
+      thumbnail: images.itinerary.hachikoSquare,
+      activity: {
+        duration: "10 mins",
+        narratives: []
+      }
+    },
+    {
+      time: "1110",
       name: "MEGA Don Quijote Shibuya Honten",
       thumbnail: images.itinerary.donQuijote,
       activity: {

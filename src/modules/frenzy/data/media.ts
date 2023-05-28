@@ -256,6 +256,13 @@ export const media: Graphic[] = [
     tags: [Tag.hoboShinjukuNorengai, Tag.food, Tag.image],
   },
   {
+    thumbnail: Image.pikachuMaskWithBro,
+    src: Image.pikachuMaskWithBro,
+    name: "Pikachu Mask",
+    description: "",
+    tags: [Tag.brothers, Tag.image],
+  },
+  {
     thumbnail: Image.meguroRiverFigLeafPose,
     src: Image.meguroRiverFigLeafPose,
     name: "Sitting by the Serene Meguro River",
